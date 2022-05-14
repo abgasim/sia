@@ -1,6 +1,6 @@
 <?php
-require_once './sie_includes/sie.main.connect.php';
-require_once './sie_includes/sie.main.includes.php';
+require_once './includes/sie.main.connect.php';
+require_once './includes/sie.main.includes.php';
 sie_header();
 ?>
 <body>
