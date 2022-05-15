@@ -40,23 +40,9 @@ function myheader()
     </h1>
     <ul>
     <li>
-    <a class="h3 links" href = "../includes/main.institutes.gov.php"><i class="fa fa-institution"></i>PTC List</a>
-
-    </li>
-    <li>
-  
-    <div class="dropdown">
-    <button class="h3 links dropdown-toggle" type="button" data-toggle="dropdown">Programs
-    <span class="caret"></span></button>
-    <ul class="dropdown-menu">
-      <li><a href="#">HTML</a></li>
-      <li><a href="#">CSS</a></li>
-      <li><a href="#">JavaScript</a></li>
-    </ul>
-</div>
+    <a class="h3 links" href = "../includes/main.institutes.gov.php"><i class="fa fa-institution"></i>Polytechnic and College Lists</a>
     </li>
     <li><a class="h3 links" href = "../includes/main.aboutus.php">About Us</a></li>
-
     </ul>
 </div>
 </header>';
