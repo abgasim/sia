@@ -29,7 +29,6 @@ myheader();
         {
             $shortName = $_GET['logo'];
             $sql = "SELECT * FROM ptc_name WHERE `logo` = \"".  $shortName . "\"";
-            echo $sql;
             $data = $connect->query($sql);
             $total = $data->rowCount();
 
@@ -46,7 +45,6 @@ myheader();
                 $sqlCondition .=" OR ";
             }
             $sqlCondition = substr($sqlCondition, 0, -3);
-            echo $sqlCondition;
 
             $sql2 = "SELECT * FROM ptc_occupation WHERE " . $sqlCondition;
             $data2 = $connect->query($sql2);
@@ -55,7 +53,7 @@ myheader();
             echo '<p class="h2">Available Occupations</p>';
 
             foreach ($data2 as $row2) {
-                echo '<a href="#">'.$row2["area"].'</a>&nbsp;';
+                echo '<a href="#">'.$row2["area"].'</a>&nbsp;&nbsp;';
             }
             // echo '<p class="h2">Available Occupations</p>';
             // echo '<p>';
