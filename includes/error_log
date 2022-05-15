@@ -1,438 +1,438 @@
-[23-Jul-2021 09:48:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sie_db.institute_gov' doesn't exist in /home/a1e50s1696c1/public_html/includes/main.institutes.gov.php:14
+[23-Jul-2021 09:48:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sie_db.institute_gov' doesn't exist in /home/a1e50s1696c1/public_html/sie_includes/sie.main.institutes.gov.php:14
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.institutes.gov.php(14): PDO->query('SELECT * FROM i...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.institutes.gov.php(14): PDO->query('SELECT * FROM i...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.institutes.gov.php on line 14
-[23-Jul-2021 09:48:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sie_db.institute_gov' doesn't exist in /home/a1e50s1696c1/public_html/includes/main.institutes.gov.php:14
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.institutes.gov.php on line 14
+[23-Jul-2021 09:48:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sie_db.institute_gov' doesn't exist in /home/a1e50s1696c1/public_html/sie_includes/sie.main.institutes.gov.php:14
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.institutes.gov.php(14): PDO->query('SELECT * FROM i...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.institutes.gov.php(14): PDO->query('SELECT * FROM i...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.institutes.gov.php on line 14
-[23-Jul-2021 09:48:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sie_db.institute_gov' doesn't exist in /home/a1e50s1696c1/public_html/includes/main.institutes.gov.php:14
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.institutes.gov.php on line 14
+[23-Jul-2021 09:48:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sie_db.institute_gov' doesn't exist in /home/a1e50s1696c1/public_html/sie_includes/sie.main.institutes.gov.php:14
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.institutes.gov.php(14): PDO->query('SELECT * FROM i...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.institutes.gov.php(14): PDO->query('SELECT * FROM i...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.institutes.gov.php on line 14
-[23-Jul-2021 09:48:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sie_db.institute_gov' doesn't exist in /home/a1e50s1696c1/public_html/includes/main.institutes.gov.php:14
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.institutes.gov.php on line 14
+[23-Jul-2021 09:48:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sie_db.institute_gov' doesn't exist in /home/a1e50s1696c1/public_html/sie_includes/sie.main.institutes.gov.php:14
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.institutes.gov.php(14): PDO->query('SELECT * FROM i...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.institutes.gov.php(14): PDO->query('SELECT * FROM i...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.institutes.gov.php on line 14
-[23-Jul-2021 09:48:56 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sie_db.institute_gov' doesn't exist in /home/a1e50s1696c1/public_html/includes/main.institutes.gov.php:14
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.institutes.gov.php on line 14
+[23-Jul-2021 09:48:56 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sie_db.institute_gov' doesn't exist in /home/a1e50s1696c1/public_html/sie_includes/sie.main.institutes.gov.php:14
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.institutes.gov.php(14): PDO->query('SELECT * FROM i...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.institutes.gov.php(14): PDO->query('SELECT * FROM i...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.institutes.gov.php on line 14
-[01-Feb-2022 09:05:37 UTC] PHP Notice:  Undefined variable: DBHOST in /home/a1e50s1696c1/public_html/includes/main.connect.php on line 20
-[01-Feb-2022 09:05:37 UTC] PHP Notice:  Undefined variable: DBUSER in /home/a1e50s1696c1/public_html/includes/main.connect.php on line 21
-[01-Feb-2022 09:05:37 UTC] PHP Notice:  Undefined variable: DBPASSWORD in /home/a1e50s1696c1/public_html/includes/main.connect.php on line 22
-[01-Feb-2022 09:05:37 UTC] PHP Notice:  Undefined variable: connect in /home/a1e50s1696c1/public_html/includes/main.institutes.gov.php on line 14
-[01-Feb-2022 09:05:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/a1e50s1696c1/public_html/includes/main.institutes.gov.php:14
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.institutes.gov.php on line 14
+[01-Feb-2022 09:05:37 UTC] PHP Notice:  Undefined variable: DBHOST in /home/a1e50s1696c1/public_html/sie_includes/sie.main.connect.php on line 20
+[01-Feb-2022 09:05:37 UTC] PHP Notice:  Undefined variable: DBUSER in /home/a1e50s1696c1/public_html/sie_includes/sie.main.connect.php on line 21
+[01-Feb-2022 09:05:37 UTC] PHP Notice:  Undefined variable: DBPASSWORD in /home/a1e50s1696c1/public_html/sie_includes/sie.main.connect.php on line 22
+[01-Feb-2022 09:05:37 UTC] PHP Notice:  Undefined variable: connect in /home/a1e50s1696c1/public_html/sie_includes/sie.main.institutes.gov.php on line 14
+[01-Feb-2022 09:05:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/a1e50s1696c1/public_html/sie_includes/sie.main.institutes.gov.php:14
 Stack trace:
 #0 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.institutes.gov.php on line 14
-[01-Feb-2022 09:05:40 UTC] PHP Notice:  Undefined variable: DBHOST in /home/a1e50s1696c1/public_html/includes/main.connect.php on line 20
-[01-Feb-2022 09:05:40 UTC] PHP Notice:  Undefined variable: DBUSER in /home/a1e50s1696c1/public_html/includes/main.connect.php on line 21
-[01-Feb-2022 09:05:40 UTC] PHP Notice:  Undefined variable: DBPASSWORD in /home/a1e50s1696c1/public_html/includes/main.connect.php on line 22
-[01-Feb-2022 09:05:40 UTC] PHP Notice:  Undefined variable: connect in /home/a1e50s1696c1/public_html/includes/main.scholarship.php on line 11
-[01-Feb-2022 09:05:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/a1e50s1696c1/public_html/includes/main.scholarship.php:11
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.institutes.gov.php on line 14
+[01-Feb-2022 09:05:40 UTC] PHP Notice:  Undefined variable: DBHOST in /home/a1e50s1696c1/public_html/sie_includes/sie.main.connect.php on line 20
+[01-Feb-2022 09:05:40 UTC] PHP Notice:  Undefined variable: DBUSER in /home/a1e50s1696c1/public_html/sie_includes/sie.main.connect.php on line 21
+[01-Feb-2022 09:05:40 UTC] PHP Notice:  Undefined variable: DBPASSWORD in /home/a1e50s1696c1/public_html/sie_includes/sie.main.connect.php on line 22
+[01-Feb-2022 09:05:40 UTC] PHP Notice:  Undefined variable: connect in /home/a1e50s1696c1/public_html/sie_includes/sie.main.scholarship.php on line 11
+[01-Feb-2022 09:05:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/a1e50s1696c1/public_html/sie_includes/sie.main.scholarship.php:11
 Stack trace:
 #0 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.scholarship.php on line 11
-[01-Feb-2022 09:05:43 UTC] PHP Notice:  Undefined variable: DBHOST in /home/a1e50s1696c1/public_html/includes/main.connect.php on line 20
-[01-Feb-2022 09:05:43 UTC] PHP Notice:  Undefined variable: DBUSER in /home/a1e50s1696c1/public_html/includes/main.connect.php on line 21
-[01-Feb-2022 09:05:43 UTC] PHP Notice:  Undefined variable: DBPASSWORD in /home/a1e50s1696c1/public_html/includes/main.connect.php on line 22
-[01-Feb-2022 09:05:43 UTC] PHP Notice:  Undefined variable: connect in /home/a1e50s1696c1/public_html/includes/main.institutes.gov.php on line 14
-[01-Feb-2022 09:05:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/a1e50s1696c1/public_html/includes/main.institutes.gov.php:14
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.scholarship.php on line 11
+[01-Feb-2022 09:05:43 UTC] PHP Notice:  Undefined variable: DBHOST in /home/a1e50s1696c1/public_html/sie_includes/sie.main.connect.php on line 20
+[01-Feb-2022 09:05:43 UTC] PHP Notice:  Undefined variable: DBUSER in /home/a1e50s1696c1/public_html/sie_includes/sie.main.connect.php on line 21
+[01-Feb-2022 09:05:43 UTC] PHP Notice:  Undefined variable: DBPASSWORD in /home/a1e50s1696c1/public_html/sie_includes/sie.main.connect.php on line 22
+[01-Feb-2022 09:05:43 UTC] PHP Notice:  Undefined variable: connect in /home/a1e50s1696c1/public_html/sie_includes/sie.main.institutes.gov.php on line 14
+[01-Feb-2022 09:05:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/a1e50s1696c1/public_html/sie_includes/sie.main.institutes.gov.php:14
 Stack trace:
 #0 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.institutes.gov.php on line 14
-[04-Feb-2022 07:54:59 UTC] PHP Notice:  Array to string conversion in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 2
-[04-Feb-2022 08:07:46 UTC] PHP Parse error:  syntax error, unexpected '"', expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 7
-[04-Feb-2022 08:11:42 UTC] PHP Parse error:  syntax error, unexpected '"', expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 8
-[04-Feb-2022 08:15:55 UTC] PHP Parse error:  syntax error, unexpected '"', expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 8
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.institutes.gov.php on line 14
+[04-Feb-2022 07:54:59 UTC] PHP Notice:  Array to string conversion in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 2
+[04-Feb-2022 08:07:46 UTC] PHP Parse error:  syntax error, unexpected '"', expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 7
+[04-Feb-2022 08:11:42 UTC] PHP Parse error:  syntax error, unexpected '"', expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 8
+[04-Feb-2022 08:15:55 UTC] PHP Parse error:  syntax error, unexpected '"', expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 8
 [04-Feb-2022 08:21:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '["university_name"],
         $_GET["program_level"],
         $_GET["credit"],
-  ' at line 2 in /home/a1e50s1696c1/public_html/includes/main.registration.php:14
+  ' at line 2 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:14
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(14): PDO->query('INSERT INTO `al...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(14): PDO->query('INSERT INTO `al...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 14
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 14
 [04-Feb-2022 08:23:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '["university_name"],
         $_GET["program_level"],
         $_GET["credit"],
-  ' at line 2 in /home/a1e50s1696c1/public_html/includes/main.registration.php:16
+  ' at line 2 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:16
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(16): PDO->query('INSERT INTO `al...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(16): PDO->query('INSERT INTO `al...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 16
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 16
 [04-Feb-2022 08:28:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '["university_name"],
         $_GET["program_level"],
         $_GET["credit"],
-  ' at line 2 in /home/a1e50s1696c1/public_html/includes/main.registration.php:16
+  ' at line 2 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:16
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(16): PDO->query('INSERT INTO `al...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(16): PDO->query('INSERT INTO `al...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 16
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 16
 [04-Feb-2022 08:29:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '["university_name"],
         $_GET["program_level"],
         $_GET["credit"],
-  ' at line 2 in /home/a1e50s1696c1/public_html/includes/main.registration.php:16
+  ' at line 2 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:16
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(16): PDO->query('INSERT INTO `al...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(16): PDO->query('INSERT INTO `al...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 16
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 16
 [04-Feb-2022 08:29:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '["university_name"],
         $_GET["program_level"],
         $_GET["credit"],
-  ' at line 2 in /home/a1e50s1696c1/public_html/includes/main.registration.php:16
+  ' at line 2 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:16
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(16): PDO->query('INSERT INTO `al...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(16): PDO->query('INSERT INTO `al...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 16
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 16
 [04-Feb-2022 08:29:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '["university_name"],
         $_GET["program_level"],
         $_GET["credit"],
-  ' at line 2 in /home/a1e50s1696c1/public_html/includes/main.registration.php:16
+  ' at line 2 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:16
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(16): PDO->query('INSERT INTO `al...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(16): PDO->query('INSERT INTO `al...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 16
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 16
 [04-Feb-2022 08:30:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '["university_name"],
         $_GET["program_level"],
         $_GET["credit"],
-  ' at line 2 in /home/a1e50s1696c1/public_html/includes/main.registration.php:16
+  ' at line 2 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:16
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(16): PDO->query('INSERT INTO `al...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(16): PDO->query('INSERT INTO `al...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 16
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 16
 [04-Feb-2022 08:31:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '["university_name"],
         $_GET["program_level"],
         $_GET["credit"],
-  ' at line 2 in /home/a1e50s1696c1/public_html/includes/main.registration.php:14
+  ' at line 2 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:14
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(14): PDO->query('INSERT INTO `al...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(14): PDO->query('INSERT INTO `al...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 14
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 14
 [04-Feb-2022 08:32:59 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '["university_name"],
         $_GET["program_level"],
         $_GET["credit"],
-  ' at line 2 in /home/a1e50s1696c1/public_html/includes/main.registration.php:14
+  ' at line 2 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:14
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(14): PDO->query('INSERT INTO `al...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(14): PDO->query('INSERT INTO `al...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 14
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 14
 [04-Feb-2022 08:35:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '["university_name"],
         $_GET["program_level"],
         $_GET["credit"],
-  ' at line 2 in /home/a1e50s1696c1/public_html/includes/main.registration.php:14
+  ' at line 2 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:14
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(14): PDO->query('INSERT INTO `al...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(14): PDO->query('INSERT INTO `al...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 14
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 14
 [04-Feb-2022 08:36:09 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '["university_name"],
         $_GET["program_level"],
         $_GET["credit"],
-  ' at line 2 in /home/a1e50s1696c1/public_html/includes/main.registration.php:14
+  ' at line 2 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:14
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(14): PDO->query('INSERT INTO `al...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(14): PDO->query('INSERT INTO `al...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 14
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 14
 [04-Feb-2022 08:36:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '["university_name"],
         $_GET["program_level"],
         $_GET["credit"],
-  ' at line 2 in /home/a1e50s1696c1/public_html/includes/main.registration.php:15
+  ' at line 2 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:15
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(15): PDO->query('INSERT INTO `al...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(15): PDO->query('INSERT INTO `al...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 15
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 15
 [04-Feb-2022 08:38:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '["university_name"],
         $_GET["program_level"],
         $_GET["credit"],
-  ' at line 2 in /home/a1e50s1696c1/public_html/includes/main.registration.php:14
+  ' at line 2 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:14
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(14): PDO->query('INSERT INTO `al...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(14): PDO->query('INSERT INTO `al...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 14
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 14
 [04-Feb-2022 08:39:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '["university_name"],
         $_GET["program_level"],
         $_GET["credit"],
-  ' at line 2 in /home/a1e50s1696c1/public_html/includes/main.registration.php:14
+  ' at line 2 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:14
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(14): PDO->query('INSERT INTO `al...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(14): PDO->query('INSERT INTO `al...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 14
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 14
 [04-Feb-2022 08:53:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '["university_name"],
         $_GET["program_level"],
         $_GET["credit"],
-  ' at line 2 in /home/a1e50s1696c1/public_html/includes/main.registration.php:24
+  ' at line 2 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:24
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(24): PDO->query('INSERT INTO `al...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(24): PDO->query('INSERT INTO `al...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 24
-[04-Feb-2022 13:14:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'university_name' in 'field list' in /home/a1e50s1696c1/public_html/includes/main.registration.php:24
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 24
+[04-Feb-2022 13:14:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'university_name' in 'field list' in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:24
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(24): PDOStatement->execute(Array)
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(24): PDOStatement->execute(Array)
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 24
-[04-Feb-2022 13:14:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'university_name' in 'field list' in /home/a1e50s1696c1/public_html/includes/main.registration.php:24
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 24
+[04-Feb-2022 13:14:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'university_name' in 'field list' in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:24
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(24): PDOStatement->execute(Array)
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(24): PDOStatement->execute(Array)
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 24
-[04-Feb-2022 13:18:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'university_name' in 'field list' in /home/a1e50s1696c1/public_html/includes/main.registration.php:34
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 24
+[04-Feb-2022 13:18:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'university_name' in 'field list' in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:34
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(34): PDOStatement->execute(Array)
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(34): PDOStatement->execute(Array)
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 34
-[04-Feb-2022 13:19:12 UTC] PHP Recoverable fatal error:  Object of class PDOStatement could not be converted to string in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 34
-[04-Feb-2022 13:19:59 UTC] PHP Notice:  Undefined variable: e in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 10
-[04-Feb-2022 13:19:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in /home/a1e50s1696c1/public_html/includes/main.registration.php:10
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 34
+[04-Feb-2022 13:19:12 UTC] PHP Recoverable fatal error:  Object of class PDOStatement could not be converted to string in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 34
+[04-Feb-2022 13:19:59 UTC] PHP Notice:  Undefined variable: e in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 10
+[04-Feb-2022 13:19:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:10
 Stack trace:
 #0 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 10
-[04-Feb-2022 13:20:12 UTC] PHP Notice:  Undefined variable: e in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 10
-[04-Feb-2022 13:20:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in /home/a1e50s1696c1/public_html/includes/main.registration.php:10
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 10
+[04-Feb-2022 13:20:12 UTC] PHP Notice:  Undefined variable: e in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 10
+[04-Feb-2022 13:20:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:10
 Stack trace:
 #0 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 10
-[04-Feb-2022 13:20:15 UTC] PHP Notice:  Undefined variable: e in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 10
-[04-Feb-2022 13:20:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in /home/a1e50s1696c1/public_html/includes/main.registration.php:10
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 10
+[04-Feb-2022 13:20:15 UTC] PHP Notice:  Undefined variable: e in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 10
+[04-Feb-2022 13:20:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:10
 Stack trace:
 #0 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 10
-[04-Feb-2022 13:20:16 UTC] PHP Notice:  Undefined variable: e in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 10
-[04-Feb-2022 13:20:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in /home/a1e50s1696c1/public_html/includes/main.registration.php:10
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 10
+[04-Feb-2022 13:20:16 UTC] PHP Notice:  Undefined variable: e in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 10
+[04-Feb-2022 13:20:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:10
 Stack trace:
 #0 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 10
-[04-Feb-2022 13:24:35 UTC] PHP Recoverable fatal error:  Object of class PDOStatement could not be converted to string in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 35
-[04-Feb-2022 13:24:39 UTC] PHP Recoverable fatal error:  Object of class PDOStatement could not be converted to string in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 35
-[07-Feb-2022 08:10:31 UTC] PHP Recoverable fatal error:  Object of class PDOStatement could not be converted to string in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 35
-[07-Feb-2022 08:11:22 UTC] PHP Recoverable fatal error:  Object of class PDOStatement could not be converted to string in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 35
-[07-Feb-2022 08:11:25 UTC] PHP Recoverable fatal error:  Object of class PDOStatement could not be converted to string in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 35
-[07-Feb-2022 08:11:58 UTC] PHP Recoverable fatal error:  Object of class PDOStatement could not be converted to string in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 35
-[07-Feb-2022 08:16:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1,4,123,distanst,Day,en)' at line 1 in /home/a1e50s1696c1/public_html/includes/main.registration.php:34
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 10
+[04-Feb-2022 13:24:35 UTC] PHP Recoverable fatal error:  Object of class PDOStatement could not be converted to string in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 35
+[04-Feb-2022 13:24:39 UTC] PHP Recoverable fatal error:  Object of class PDOStatement could not be converted to string in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 35
+[07-Feb-2022 08:10:31 UTC] PHP Recoverable fatal error:  Object of class PDOStatement could not be converted to string in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 35
+[07-Feb-2022 08:11:22 UTC] PHP Recoverable fatal error:  Object of class PDOStatement could not be converted to string in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 35
+[07-Feb-2022 08:11:25 UTC] PHP Recoverable fatal error:  Object of class PDOStatement could not be converted to string in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 35
+[07-Feb-2022 08:11:58 UTC] PHP Recoverable fatal error:  Object of class PDOStatement could not be converted to string in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 35
+[07-Feb-2022 08:16:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1,4,123,distanst,Day,en)' at line 1 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:34
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(34): PDO->query('INSERT INTO all...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(34): PDO->query('INSERT INTO all...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 34
-[07-Feb-2022 08:18:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1,4,123,distanst,Day,en)' at line 1 in /home/a1e50s1696c1/public_html/includes/main.registration.php:34
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 34
+[07-Feb-2022 08:18:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1,4,123,distanst,Day,en)' at line 1 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:34
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(34): PDO->query('INSERT INTO all...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(34): PDO->query('INSERT INTO all...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 34
-[07-Feb-2022 08:18:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1,4,123,distanst,Day,en)' at line 1 in /home/a1e50s1696c1/public_html/includes/main.registration.php:34
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 34
+[07-Feb-2022 08:18:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1,4,123,distanst,Day,en)' at line 1 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:34
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(34): PDO->query('INSERT INTO all...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(34): PDO->query('INSERT INTO all...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 34
-[07-Feb-2022 08:20:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'distanst' in 'field list' in /home/a1e50s1696c1/public_html/includes/main.registration.php:34
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 34
+[07-Feb-2022 08:20:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'distanst' in 'field list' in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:34
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(34): PDO->query('INSERT INTO all...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(34): PDO->query('INSERT INTO all...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 34
-[07-Feb-2022 08:21:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'distanst' in 'field list' in /home/a1e50s1696c1/public_html/includes/main.registration.php:36
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 34
+[07-Feb-2022 08:21:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'distanst' in 'field list' in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:36
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(36): PDO->query('INSERT INTO all...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(36): PDO->query('INSERT INTO all...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 36
-[10-Feb-2022 14:55:22 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 7
-[10-Feb-2022 14:55:22 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 8
-[10-Feb-2022 14:55:22 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 9
-[10-Feb-2022 14:55:22 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 10
-[10-Feb-2022 14:55:22 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 11
-[10-Feb-2022 14:55:22 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 12
-[10-Feb-2022 14:55:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/includes/main.registration.php:20
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 36
+[10-Feb-2022 14:55:22 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 7
+[10-Feb-2022 14:55:22 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 8
+[10-Feb-2022 14:55:22 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 9
+[10-Feb-2022 14:55:22 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 10
+[10-Feb-2022 14:55:22 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 11
+[10-Feb-2022 14:55:22 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 12
+[10-Feb-2022 14:55:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:20
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(20): PDO->query('\nINSERT INTO `a...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(20): PDO->query('\nINSERT INTO `a...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 20
-[12-Feb-2022 02:19:18 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 7
-[12-Feb-2022 02:19:18 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 8
-[12-Feb-2022 02:19:18 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 9
-[12-Feb-2022 02:19:18 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 10
-[12-Feb-2022 02:19:18 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 11
-[12-Feb-2022 02:19:18 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 12
-[12-Feb-2022 02:19:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/includes/main.registration.php:20
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 20
+[12-Feb-2022 02:19:18 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 7
+[12-Feb-2022 02:19:18 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 8
+[12-Feb-2022 02:19:18 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 9
+[12-Feb-2022 02:19:18 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 10
+[12-Feb-2022 02:19:18 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 11
+[12-Feb-2022 02:19:18 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 12
+[12-Feb-2022 02:19:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:20
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(20): PDO->query('\nINSERT INTO `a...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(20): PDO->query('\nINSERT INTO `a...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 20
-[12-Feb-2022 18:40:44 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 7
-[12-Feb-2022 18:40:44 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 8
-[12-Feb-2022 18:40:44 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 9
-[12-Feb-2022 18:40:44 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 10
-[12-Feb-2022 18:40:44 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 11
-[12-Feb-2022 18:40:44 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 12
-[12-Feb-2022 18:40:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/includes/main.registration.php:20
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 20
+[12-Feb-2022 18:40:44 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 7
+[12-Feb-2022 18:40:44 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 8
+[12-Feb-2022 18:40:44 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 9
+[12-Feb-2022 18:40:44 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 10
+[12-Feb-2022 18:40:44 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 11
+[12-Feb-2022 18:40:44 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 12
+[12-Feb-2022 18:40:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:20
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(20): PDO->query('\nINSERT INTO `a...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(20): PDO->query('\nINSERT INTO `a...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 20
-[13-Feb-2022 01:12:00 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 7
-[13-Feb-2022 01:12:00 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 8
-[13-Feb-2022 01:12:00 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 9
-[13-Feb-2022 01:12:00 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 10
-[13-Feb-2022 01:12:00 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 11
-[13-Feb-2022 01:12:00 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 12
-[13-Feb-2022 01:12:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/includes/main.registration.php:20
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 20
+[13-Feb-2022 01:12:00 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 7
+[13-Feb-2022 01:12:00 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 8
+[13-Feb-2022 01:12:00 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 9
+[13-Feb-2022 01:12:00 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 10
+[13-Feb-2022 01:12:00 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 11
+[13-Feb-2022 01:12:00 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 12
+[13-Feb-2022 01:12:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:20
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(20): PDO->query('\nINSERT INTO `a...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(20): PDO->query('\nINSERT INTO `a...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 20
-[15-Feb-2022 05:04:12 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 7
-[15-Feb-2022 05:04:12 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 8
-[15-Feb-2022 05:04:12 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 9
-[15-Feb-2022 05:04:12 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 10
-[15-Feb-2022 05:04:12 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 11
-[15-Feb-2022 05:04:12 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 12
-[15-Feb-2022 05:04:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/includes/main.registration.php:20
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 20
+[15-Feb-2022 05:04:12 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 7
+[15-Feb-2022 05:04:12 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 8
+[15-Feb-2022 05:04:12 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 9
+[15-Feb-2022 05:04:12 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 10
+[15-Feb-2022 05:04:12 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 11
+[15-Feb-2022 05:04:12 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 12
+[15-Feb-2022 05:04:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:20
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(20): PDO->query('\nINSERT INTO `a...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(20): PDO->query('\nINSERT INTO `a...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 20
-[17-Feb-2022 08:58:42 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 7
-[17-Feb-2022 08:58:42 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 8
-[17-Feb-2022 08:58:42 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 9
-[17-Feb-2022 08:58:42 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 10
-[17-Feb-2022 08:58:42 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 11
-[17-Feb-2022 08:58:42 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 12
-[17-Feb-2022 08:58:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/includes/main.registration.php:20
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 20
+[17-Feb-2022 08:58:42 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 7
+[17-Feb-2022 08:58:42 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 8
+[17-Feb-2022 08:58:42 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 9
+[17-Feb-2022 08:58:42 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 10
+[17-Feb-2022 08:58:42 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 11
+[17-Feb-2022 08:58:42 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 12
+[17-Feb-2022 08:58:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:20
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(20): PDO->query('\nINSERT INTO `a...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(20): PDO->query('\nINSERT INTO `a...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 20
-[27-Feb-2022 08:49:48 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 7
-[27-Feb-2022 08:49:48 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 8
-[27-Feb-2022 08:49:48 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 9
-[27-Feb-2022 08:49:48 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 10
-[27-Feb-2022 08:49:48 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 11
-[27-Feb-2022 08:49:48 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 12
-[27-Feb-2022 08:49:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/includes/main.registration.php:20
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 20
+[27-Feb-2022 08:49:48 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 7
+[27-Feb-2022 08:49:48 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 8
+[27-Feb-2022 08:49:48 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 9
+[27-Feb-2022 08:49:48 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 10
+[27-Feb-2022 08:49:48 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 11
+[27-Feb-2022 08:49:48 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 12
+[27-Feb-2022 08:49:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:20
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(20): PDO->query('\nINSERT INTO `a...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(20): PDO->query('\nINSERT INTO `a...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 20
-[01-Mar-2022 12:43:26 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 7
-[01-Mar-2022 12:43:26 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 8
-[01-Mar-2022 12:43:26 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 9
-[01-Mar-2022 12:43:26 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 10
-[01-Mar-2022 12:43:26 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 11
-[01-Mar-2022 12:43:26 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 12
-[01-Mar-2022 12:43:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/includes/main.registration.php:20
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 20
+[01-Mar-2022 12:43:26 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 7
+[01-Mar-2022 12:43:26 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 8
+[01-Mar-2022 12:43:26 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 9
+[01-Mar-2022 12:43:26 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 10
+[01-Mar-2022 12:43:26 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 11
+[01-Mar-2022 12:43:26 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 12
+[01-Mar-2022 12:43:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:20
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(20): PDO->query('\nINSERT INTO `a...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(20): PDO->query('\nINSERT INTO `a...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 20
-[18-Mar-2022 15:12:46 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 7
-[18-Mar-2022 15:12:46 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 8
-[18-Mar-2022 15:12:46 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 9
-[18-Mar-2022 15:12:46 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 10
-[18-Mar-2022 15:12:46 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 11
-[18-Mar-2022 15:12:46 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 12
-[18-Mar-2022 15:12:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/includes/main.registration.php:20
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 20
+[18-Mar-2022 15:12:46 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 7
+[18-Mar-2022 15:12:46 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 8
+[18-Mar-2022 15:12:46 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 9
+[18-Mar-2022 15:12:46 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 10
+[18-Mar-2022 15:12:46 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 11
+[18-Mar-2022 15:12:46 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 12
+[18-Mar-2022 15:12:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:20
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(20): PDO->query('\nINSERT INTO `a...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(20): PDO->query('\nINSERT INTO `a...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 20
-[20-Mar-2022 18:18:21 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 7
-[20-Mar-2022 18:18:21 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 8
-[20-Mar-2022 18:18:21 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 9
-[20-Mar-2022 18:18:22 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 10
-[20-Mar-2022 18:18:22 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 11
-[20-Mar-2022 18:18:22 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 12
-[20-Mar-2022 18:18:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/includes/main.registration.php:20
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 20
+[20-Mar-2022 18:18:21 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 7
+[20-Mar-2022 18:18:21 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 8
+[20-Mar-2022 18:18:21 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 9
+[20-Mar-2022 18:18:22 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 10
+[20-Mar-2022 18:18:22 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 11
+[20-Mar-2022 18:18:22 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 12
+[20-Mar-2022 18:18:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:20
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(20): PDO->query('\nINSERT INTO `a...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(20): PDO->query('\nINSERT INTO `a...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 20
-[01-Apr-2022 04:05:05 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 7
-[01-Apr-2022 04:05:05 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 8
-[01-Apr-2022 04:05:05 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 9
-[01-Apr-2022 04:05:05 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 10
-[01-Apr-2022 04:05:05 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 11
-[01-Apr-2022 04:05:05 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 12
-[01-Apr-2022 04:05:05 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/includes/main.registration.php:20
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 20
+[01-Apr-2022 04:05:05 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 7
+[01-Apr-2022 04:05:05 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 8
+[01-Apr-2022 04:05:05 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 9
+[01-Apr-2022 04:05:05 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 10
+[01-Apr-2022 04:05:05 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 11
+[01-Apr-2022 04:05:05 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 12
+[01-Apr-2022 04:05:05 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:20
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(20): PDO->query('\nINSERT INTO `a...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(20): PDO->query('\nINSERT INTO `a...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 20
-[02-Apr-2022 17:04:12 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 7
-[02-Apr-2022 17:04:12 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 8
-[02-Apr-2022 17:04:12 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 9
-[02-Apr-2022 17:04:12 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 10
-[02-Apr-2022 17:04:12 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 11
-[02-Apr-2022 17:04:12 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 12
-[02-Apr-2022 17:04:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/includes/main.registration.php:20
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 20
+[02-Apr-2022 17:04:12 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 7
+[02-Apr-2022 17:04:12 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 8
+[02-Apr-2022 17:04:12 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 9
+[02-Apr-2022 17:04:12 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 10
+[02-Apr-2022 17:04:12 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 11
+[02-Apr-2022 17:04:12 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 12
+[02-Apr-2022 17:04:12 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:20
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(20): PDO->query('\nINSERT INTO `a...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(20): PDO->query('\nINSERT INTO `a...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 20
-[03-Apr-2022 13:51:21 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 7
-[03-Apr-2022 13:51:21 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 8
-[03-Apr-2022 13:51:21 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 9
-[03-Apr-2022 13:51:21 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 10
-[03-Apr-2022 13:51:21 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 11
-[03-Apr-2022 13:51:21 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 12
-[03-Apr-2022 13:51:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/includes/main.registration.php:20
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 20
+[03-Apr-2022 13:51:21 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 7
+[03-Apr-2022 13:51:21 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 8
+[03-Apr-2022 13:51:21 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 9
+[03-Apr-2022 13:51:21 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 10
+[03-Apr-2022 13:51:21 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 11
+[03-Apr-2022 13:51:21 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 12
+[03-Apr-2022 13:51:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:20
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(20): PDO->query('\nINSERT INTO `a...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(20): PDO->query('\nINSERT INTO `a...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 20
-[05-Apr-2022 18:26:09 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 7
-[05-Apr-2022 18:26:10 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 8
-[05-Apr-2022 18:26:10 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 9
-[05-Apr-2022 18:26:10 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 10
-[05-Apr-2022 18:26:10 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 11
-[05-Apr-2022 18:26:10 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 12
-[05-Apr-2022 18:26:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/includes/main.registration.php:20
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 20
+[05-Apr-2022 18:26:09 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 7
+[05-Apr-2022 18:26:10 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 8
+[05-Apr-2022 18:26:10 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 9
+[05-Apr-2022 18:26:10 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 10
+[05-Apr-2022 18:26:10 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 11
+[05-Apr-2022 18:26:10 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 12
+[05-Apr-2022 18:26:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:20
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(20): PDO->query('\nINSERT INTO `a...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(20): PDO->query('\nINSERT INTO `a...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 20
-[19-Apr-2022 04:43:19 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 7
-[19-Apr-2022 04:43:19 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 8
-[19-Apr-2022 04:43:19 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 9
-[19-Apr-2022 04:43:19 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 10
-[19-Apr-2022 04:43:19 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 11
-[19-Apr-2022 04:43:19 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 12
-[19-Apr-2022 04:43:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/includes/main.registration.php:20
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 20
+[19-Apr-2022 04:43:19 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 7
+[19-Apr-2022 04:43:19 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 8
+[19-Apr-2022 04:43:19 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 9
+[19-Apr-2022 04:43:19 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 10
+[19-Apr-2022 04:43:19 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 11
+[19-Apr-2022 04:43:19 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 12
+[19-Apr-2022 04:43:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:20
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(20): PDO->query('\nINSERT INTO `a...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(20): PDO->query('\nINSERT INTO `a...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 20
-[21-Apr-2022 08:30:40 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 7
-[21-Apr-2022 08:30:40 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 8
-[21-Apr-2022 08:30:40 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 9
-[21-Apr-2022 08:30:40 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 10
-[21-Apr-2022 08:30:40 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 11
-[21-Apr-2022 08:30:40 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 12
-[21-Apr-2022 08:30:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/includes/main.registration.php:20
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 20
+[21-Apr-2022 08:30:40 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 7
+[21-Apr-2022 08:30:40 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 8
+[21-Apr-2022 08:30:40 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 9
+[21-Apr-2022 08:30:40 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 10
+[21-Apr-2022 08:30:40 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 11
+[21-Apr-2022 08:30:40 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 12
+[21-Apr-2022 08:30:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:20
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(20): PDO->query('\nINSERT INTO `a...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(20): PDO->query('\nINSERT INTO `a...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 20
-[03-May-2022 02:14:46 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 7
-[03-May-2022 02:14:46 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 8
-[03-May-2022 02:14:46 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 9
-[03-May-2022 02:14:46 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 10
-[03-May-2022 02:14:46 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 11
-[03-May-2022 02:14:46 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 12
-[03-May-2022 02:14:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/includes/main.registration.php:20
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 20
+[03-May-2022 02:14:46 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 7
+[03-May-2022 02:14:46 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 8
+[03-May-2022 02:14:46 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 9
+[03-May-2022 02:14:46 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 10
+[03-May-2022 02:14:46 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 11
+[03-May-2022 02:14:46 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 12
+[03-May-2022 02:14:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:20
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(20): PDO->query('\nINSERT INTO `a...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(20): PDO->query('\nINSERT INTO `a...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 20
-[05-May-2022 06:08:38 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 7
-[05-May-2022 06:08:38 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 8
-[05-May-2022 06:08:38 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 9
-[05-May-2022 06:08:38 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 10
-[05-May-2022 06:08:38 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 11
-[05-May-2022 06:08:38 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 12
-[05-May-2022 06:08:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/includes/main.registration.php:20
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 20
+[05-May-2022 06:08:38 UTC] PHP Notice:  Undefined index: university_name in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 7
+[05-May-2022 06:08:38 UTC] PHP Notice:  Undefined index: program_level in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 8
+[05-May-2022 06:08:38 UTC] PHP Notice:  Undefined index: credit in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 9
+[05-May-2022 06:08:38 UTC] PHP Notice:  Undefined index: education_place in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 10
+[05-May-2022 06:08:38 UTC] PHP Notice:  Undefined index: instruction_time in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 11
+[05-May-2022 06:08:38 UTC] PHP Notice:  Undefined index: language_of_instruction in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 12
+[05-May-2022 06:08:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','')' at line 1 in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php:20
 Stack trace:
-#0 /home/a1e50s1696c1/public_html/includes/main.registration.php(20): PDO->query('\nINSERT INTO `a...')
+#0 /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php(20): PDO->query('\nINSERT INTO `a...')
 #1 {main}
-  thrown in /home/a1e50s1696c1/public_html/includes/main.registration.php on line 20
+  thrown in /home/a1e50s1696c1/public_html/sie_includes/sie.main.registration.php on line 20

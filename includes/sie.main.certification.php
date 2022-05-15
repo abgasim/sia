@@ -1,5 +1,5 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'].'/includes/main.includes.php';;
+require_once $_SERVER['DOCUMENT_ROOT'].'/sie_includes/sie.main.includes.php';;
 myheader();
 ?>
 </div>

@@ -1,5 +1,5 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'].'/includes/main.includes.php';;
+require_once $_SERVER['DOCUMENT_ROOT'].'/sie_includes/sie.main.includes.php';;
 
 
 
@@ -28,7 +28,7 @@ foreach ($toUpdate as $key => $value) {
 
 // echo "<p class='h2'>Governmental Instituites found (".$total.")</p>";
 // foreach ($data as $row) {
-//     echo  "<a target='blank' href=./main.institutes.gov.php?logo=" . $row['logo'] .">";
+//     echo  "<a target='blank' href=./sie.main.institutes.gov.php?logo=" . $row['logo'] .">";
 
 //     echo "<div>".$row['name'] ;
 //     echo "[" . $row['logo'] . "]";

@@ -1,8 +1,8 @@
 <?php
 
 $documnetRootPath = $_SERVER['DOCUMENT_ROOT'];
-require_once $documnetRootPath.'/includes/main.connect.php';
-require_once $documnetRootPath.'/includes/main.includes.php';
+require_once $documnetRootPath.'/sie_includes/sie.main.connect.php';
+require_once $documnetRootPath.'/sie_includes/sie.main.includes.php';
 
     $university_name =   $_GET["university_name"];
     $program_level =     $_GET["program_level"];
@@ -18,5 +18,5 @@ $university_name.",". $program_level.",". $credit.",'". $education_place."','". 
 
 
 $stmt= $connect->query($sql);
-header('Location: ./main.forms1.php');
+header('Location: ./sie.main.forms1.php');
 ?>

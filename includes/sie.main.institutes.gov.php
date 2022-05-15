@@ -1,5 +1,5 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'].'/includes/main.includes.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/includes/sie.main.includes.php';
 myheader();
 ?>
 <div class="middle-section">
@@ -16,7 +16,7 @@ myheader();
 
         echo "<p class='h2'>Instituites found (".$total.")</p>";
         foreach ($data as $row) {
-            echo  "<a href=./main.institutes.gov.php?logo=" . $row['logo'] .">";
+            echo  "<a href=./sie.main.institutes.gov.php?logo=" . $row['logo'] .">";
 
             echo "<div>".$row['name'] ;
             echo "[" . $row['logo'] . "]";
