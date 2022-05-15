@@ -1,5 +1,5 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'].'/includes/main.includes.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/main.includes.php';
 myheader();
 ?>
 <div class="middle-section">
@@ -14,83 +14,81 @@ myheader();
         $data = $connect->query($sql);
         $total = $data->rowCount();
 
-        echo "<p class='h2'>Instituites found (".$total.")</p>";
+        echo "<p class='h2'>Instituites found (" . $total . ")</p>";
         foreach ($data as $row) {
-            echo  "<a href=./main.institutes.gov.php?logo=" . $row['logo'] .">";
+            echo  "<a href=./main.institutes.gov.php?logo=" . $row['logo'] . ">";
 
-            echo "<div>".$row['name'] ;
+            echo "<div>" . $row['name'];
             echo "[" . $row['logo'] . "]";
             echo "</div></a>";
         }
         echo "</div>";
 
         echo "<div class='col-md-6' >";
-        if(isset($_GET) && isset($_GET['logo']))
-        {
+        if (isset($_GET) && isset($_GET['logo'])) {
             $shortName = $_GET['logo'];
-            $sql = "SELECT * FROM ptc_name WHERE `logo` = \"".  $shortName . "\"";
+            $sql = "SELECT * FROM ptc_name WHERE `logo` = \"" .  $shortName . "\"";
             $data = $connect->query($sql);
             $total = $data->rowCount();
 
             foreach ($data as $row) {
-            echo '<p class="h1"><i class="fa fa-institution">'.$row["name"]."  [" . $row['logo'] . "]".'</i></p>';
-            echo '<p class="h2">About</p>
-            <p class="h2">'.$row['aboutus'].'</p>';
-            echo '<p class="h2">Website : <a target="_blank" href='.$row['website'].'>'.$row['website'].'</a></p>';
-            ///
-            $occupationList = explode(',', $row['occupation']);
-            $sqlCondition = "";
-            foreach ($occupationList as $list) {
-                $sqlCondition .="`id` = $list";
-                $sqlCondition .=" OR ";
-            }
-            $sqlCondition = substr($sqlCondition, 0, -3);
+                echo '<p class="h1"><i class="fa fa-institution">' . $row["name"] . "  [" . $row['logo'] . "]" . '</i></p>';
+                echo '<p class="h2">About</p>
+            <p class="h2">' . $row['aboutus'] . '</p>';
+                echo '<p class="h2">Website : <a target="_blank" href=' . $row['website'] . '>' . $row['website'] . '</a></p>';
+                ///
+                $occupationList = explode(',', $row['occupation']);
+                $sqlCondition = "";
+                foreach ($occupationList as $list) {
+                    $sqlCondition .= "`id` = $list";
+                    $sqlCondition .= " OR ";
+                }
+                $sqlCondition = substr($sqlCondition, 0, -3);
 
-            $sql2 = "SELECT * FROM ptc_occupation WHERE " . $sqlCondition;
-            $data2 = $connect->query($sql2);
-            $total2 = $data2->rowCount();
+                $sql2 = "SELECT * FROM ptc_occupation WHERE " . $sqlCondition;
+                $data2 = $connect->query($sql2);
+                $total2 = $data2->rowCount();
 
-            echo '<p class="h2">Available Programs</p>';
-            $courses = "";
-            foreach ($data2 as $row2) {
-                echo '<a href="./main.institutes.gov.php?id=' . $row2["id"] .'"&area='.
-                $row2["area"].'>'.$row2["area"].',</a>&nbsp;&nbsp;';
-            }
+                echo '<p class="h2">Available Programs</p>';
+                $courses = "";
+                foreach ($data2 as $row2) {
+                    echo '<a href="./main.institutes.gov.php?id=' . $row2["id"] . '"&area=' .
+                        $row2["area"] . '>' . $row2["area"] . ',</a>&nbsp;&nbsp;';
+                }
             }
         }
-        if(isset($_GET) && isset($_GET['id']))
-        {
-            $id = $_GET['id'];
-            $sql = "SELECT * FROM ptc_name WHERE `occupation` LIKE '%".$id."%'";
-            echo $sql;
-            $data = $connect->query($sql);
-            $total = $data->rowCount();
+        // if (isset($_GET) && isset($_GET['id'])) {
+        //     $id = $_GET['id'];
+        //     $sql = "SELECT * FROM ptc_name WHERE `occupation` LIKE '%" . $id . "%'";
+        //     echo $sql;
+        //     $data = $connect->query($sql);
+        //     $total = $data->rowCount();
 
-            foreach ($data as $row) {
-            echo '<p class="h1"><i class="fa fa-institution">'.$row["name"]."  [" . $row['logo'] . "]".'</i></p>';
-            echo '<p class="h2">About</p>
-            <p class="h2">'.$row['aboutus'].'</p>';
-            echo '<p class="h2">Website : <a target="_blank" href='.$row['website'].'>'.$row['website'].'</a></p>';
-            ///
-            $occupationList = explode(',', $row['occupation']);
-            $sqlCondition = "";
-            foreach ($occupationList as $list) {
-                $sqlCondition .="`id` = $list";
-                $sqlCondition .=" OR ";
-            }
-            $sqlCondition = substr($sqlCondition, 0, -3);
+        //     foreach ($data as $row) {
+        //         echo '<p class="h1"><i class="fa fa-institution">' . $row["name"] . "  [" . $row['logo'] . "]" . '</i></p>';
+        //         echo '<p class="h2">About</p>
+        //     <p class="h2">' . $row['aboutus'] . '</p>';
+        //         echo '<p class="h2">Website : <a target="_blank" href=' . $row['website'] . '>' . $row['website'] . '</a></p>';
+        //         ///
+        //         $occupationList = explode(',', $row['occupation']);
+        //         $sqlCondition = "";
+        //         foreach ($occupationList as $list) {
+        //             $sqlCondition .= "`id` = $list";
+        //             $sqlCondition .= " OR ";
+        //         }
+        //         $sqlCondition = substr($sqlCondition, 0, -3);
 
-            $sql2 = "SELECT * FROM ptc_occupation WHERE " . $sqlCondition;
-            $data2 = $connect->query($sql2);
-            $total2 = $data2->rowCount();
+        //         $sql2 = "SELECT * FROM ptc_occupation WHERE " . $sqlCondition;
+        //         $data2 = $connect->query($sql2);
+        //         $total2 = $data2->rowCount();
 
-            echo '<p class="h2">Available Programs</p>';
-            $courses = "";
-            foreach ($data2 as $row2) {
-                echo "<a href=./main.institutes.gov.php?id=" . $row2['id'] .">".$row2["area"].',</a>&nbsp;&nbsp;';
-            }
-            }
-        }
+        //         echo '<p class="h2">Available Programs</p>';
+        //         $courses = "";
+        //         foreach ($data2 as $row2) {
+        //             echo "<a href=./main.institutes.gov.php?id=" . $row2['id'] . ">" . $row2["area"] . ',</a>&nbsp;&nbsp;';
+        //         }
+        //     }
+        // }
         echo "</div>";
         echo "</div>";
         ?>
