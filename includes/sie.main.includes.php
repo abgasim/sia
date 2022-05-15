@@ -42,16 +42,17 @@ function myheader()
     <li><a class="h3 links" href = "../includes/sie.main.institutes.gov.php"><i class="fa fa-institution"></i>PTC List</a>
 
     </li>
-    <li><a class="h3 links" href = "../includes/sie.main.scholarship.php"><i class="fa fa-link"></i>Scholarships and Studying abroad<br>(UK,USA,EUROPE)</a></li>
-    <li><a class="h3 links" href = "../includes/sie.main.certification.php"><i class="fa fa-certificate"></i>Certifications & Online Courses<br> (IELTS,TOEFL,UDACITY,MoSHE,...)</a></li>
 
-    <li><a class="h3 links" href = "../includes/sie.main.aboutus.php">About Us</a></li>
-    
-       <li><a class="h3 links" href = "../includes/sie.main.forms1.php">Form</a></li>
 
     </ul>
 </div>
 </header>';
+// <li><a class="h3 links" href = "../includes/sie.main.scholarship.php"><i class="fa fa-link"></i>Scholarships and Studying abroad<br>(UK,USA,EUROPE)</a></li>
+// <li><a class="h3 links" href = "../includes/sie.main.certification.php"><i class="fa fa-certificate"></i>Certifications & Online Courses<br> (IELTS,TOEFL,UDACITY,MoSHE,...)</a></li>
+
+// <li><a class="h3 links" href = "../includes/sie.main.aboutus.php">About Us</a></li>
+
+//    <li><a class="h3 links" href = "../includes/sie.main.forms1.php">Form</a></li>
 // <form class="example" action="/action_page.php">
 // <input type="text" placeholder="Search.." name="search">
 // <button type="submit"><i class="fa fa-search"></i></button>
