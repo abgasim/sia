@@ -1,6 +1,6 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'].'/sie_includes/sie.main.includes.php';;
-sie_header();
+myheader();
 ?>
 <div class="container">
   <h2>Data Entry form</h2>
@@ -35,6 +35,6 @@ sie_header();
   </form>
 </div>
 <?php
-sie_footer();
+myfooter();
 ?>
 
