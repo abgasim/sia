@@ -62,7 +62,7 @@ myheader();
             echo '<p class="h2">Available Occupations</p>';
             echo '<p>';
             foreach ($data2 as $row2) {
-                echo '<a class="h3" href="#">'.$row2['area'].'</a>';
+                echo '<a class="h3" href="#">'.$row2["area"].'</a>';
             }
             echo '</p>'
             echo "crashing here ....";
