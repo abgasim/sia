@@ -18,8 +18,8 @@
 }*/
 $documnetRootPath = $_SERVER['DOCUMENT_ROOT'];
 $server_name = "localhost";
-$user_name = "sia-admin";
-$password = "admin@sia";
+$user_name = "abtershome";
+$password = "gi3yo@2020G";
 try {
     $connect = new PDO("mysql:host=$server_name;dbname=sia_db",$user_name,$password);
     $connect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
