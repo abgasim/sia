@@ -32,7 +32,7 @@ myheader();
             $total = $data->rowCount();
 
             foreach ($data as $row) {
-                echo '<p class="h1"><i class="fa fa-institution">&nbsp;' . $row["name"] . "  [" . $row['logo'] . "]" . '</i></p>';
+                echo '<p class="h2"><i class="fa fa-institution">&nbsp;' . $row["name"] . "  [" . $row['logo'] . "]" . '</i></p>';
                 
                 ///
                 $occupationList = explode(',', $row['occupation']);
