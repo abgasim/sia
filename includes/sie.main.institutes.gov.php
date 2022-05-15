@@ -53,10 +53,8 @@ myheader();
             echo '<p class="h2">Available Programs</p>';
             $courses = "";
             foreach ($data2 as $row2) {
-                $courses .= '<a href="#">'.$row2["area"].',</a>&nbsp;&nbsp;';
+                echo '<a href="#">'.$row2["area"].',</a>&nbsp;&nbsp;';
             }
-            $courses = substr($courses, 0, -1);
-            echo $courses;
 
             // echo '<p class="h2">Available Occupations</p>';
             // echo '<p>';
