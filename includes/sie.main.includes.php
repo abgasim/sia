@@ -37,12 +37,9 @@ function myheader()
     <h1>
         <p class="h1" style="font-weight:bold">
         <a href="../index.php"><span style="color: white">www.studyinaddis.com</span></a>
-
-
-
     </h1>
     <ul>
-    <li><a class="h3 links" href = "../includes/sie.main.institutes.gov.php"><i class="fa fa-institution"></i>Institutes,Universities, & Colleges List<br>(More than 38 institutes)</a>
+    <li><a class="h3 links" href = "../includes/sie.main.institutes.gov.php"><i class="fa fa-institution"></i>PTC List</a>
 
     </li>
     <li><a class="h3 links" href = "../includes/sie.main.scholarship.php"><i class="fa fa-link"></i>Scholarships and Studying abroad<br>(UK,USA,EUROPE)</a></li>
