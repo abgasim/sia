@@ -10,13 +10,12 @@ myheader();
                 <div class="col-md-6" style="text-align: justify;height:500px; padding:20px">
                     <form class="form-horizontal" action="#" method="post" enctype="multipart/form-data">
                         <h1>Student Portal</h1>
-                        <p class="h6 text-muted">Email</p>
                         <div>
-                            <input type="email" class="form-control" name="employeeID" placeholder="email" required="" />
+                            <input type="email" class="form-control" name="userID" placeholder="email" required="" />
                         </div>
                         <br>
                         <div>
-                            <input type="password" class="form-control" name="employeePassword" placeholder="Password" required="" />
+                            <input type="password" class="form-control" name="userPassword" placeholder="Password" required="" />
                         </div>
                         <br>
                         <div>
