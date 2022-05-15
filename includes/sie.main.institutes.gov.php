@@ -29,6 +29,7 @@ myheader();
         {
             $shortName = $_GET['logo'];
             $sql = "SELECT * FROM ptc_name WHERE logo = ".  $shortName;
+            echo $sql;
             $data = $connect->query($sql);
             $total = $data->rowCount();
 
