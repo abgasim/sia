@@ -36,7 +36,7 @@ function header()
 <div class="header">
     <h1>
         <p class="h1" style="font-weight:bold">
-        <a href="../index.php"><span style="color: white">www.studyinethiopia.com</span></a>
+        <a href="../index.php"><span style="color: white">www.studyinaddis.com</span></a>
 
 
 

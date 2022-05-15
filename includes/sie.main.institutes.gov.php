@@ -1,5 +1,5 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'].'/sie_includes/sie.main.includes.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/includes/sie.main.includes.php';
 sie_header();
 ?>
 <div class="middle-section">
