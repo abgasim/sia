@@ -29,6 +29,7 @@ myheader();
         {
             $shortName = $_GET['logo'];
             $sql = "SELECT * FROM ptc_name WHERE `logo` = \"".  $shortName . "\"";
+            echo $sql;
             $data = $connect->query($sql);
             $total = $data->rowCount();
 
@@ -38,6 +39,7 @@ myheader();
             <p class="h2">'.$row['aboutus'].'</p>';
             echo '<p class="h2">Website : <a target="_blank" href='.$row['website'].'>'.$row['website'].'</a></p>';
             ///
+            echo "crashing here ....";
             $occupationList = explode(',', $row['occupation']);
             $sqlCondition = "";
             foreach ($occupationList as $list) {
@@ -45,19 +47,19 @@ myheader();
                 $sqlCondition .=" OR ";
             }
             $sqlCondition = substr($sqlCondition, 0, -3);
+            echo "crashing here ....";
             echo $sqlCondition;
 
             $sql2 = "SELECT * FROM ptc_occupation WHERE " . $sqlCondition;
             echo $sql2;
             $data2 = $connect->query($sql2);
             $total2 = $data2->rowCount();
+            echo "crashing here ....";
 
-            echo '<p class="h2">Available Occupations</p>';
-            echo '<p>';
             foreach ($data2 as $row2) {
-                echo '<a href="#">'.$row2['area'].'</a>';
+                echo $row2['area'];
             }
-            echo '</p>'
+            echo "crashing here ....";
 
 
             // echo '<p class="h2">Programs</p>';
