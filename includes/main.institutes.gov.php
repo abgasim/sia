@@ -52,8 +52,7 @@ myheader();
                 echo '<p class="h2">Available Programs</p>';
                 $courses = "";
                 foreach ($data2 as $row2) {
-                    echo '<a href="./main.institutes.gov.php?id=' . $row2["id"] . '"&area=' .
-                        $row2["area"] . '>' . $row2["area"] . ',</a>&nbsp;&nbsp;';
+                    echo '<a href="./main.institutes.gov.php?id=' . $row2["id"] . '&area=' .$row2["area"] . '>' . $row2["area"] . ',</a>&nbsp;&nbsp;';
                 }
             }
         }
