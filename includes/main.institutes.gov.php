@@ -53,27 +53,9 @@ myheader();
             echo '<p class="h2">Available Programs</p>';
             $courses = "";
             foreach ($data2 as $row2) {
-                echo "<a href=./main.institutes.gov.php?id=" . $row2['id'] .">".$row2["area"].',</a>&nbsp;&nbsp;';
+                echo '<a href="./main.institutes.gov.php?id=' . $row2["id"] .'"&area='.
+                $row2["area"].'>'.$row2["area"].',</a>&nbsp;&nbsp;';
             }
-
-            // echo '<p class="h2">Available Occupations</p>';
-            // echo '<p>';
-            // foreach ($data2 as $row2) {
-            //     echo '<a class="h3" href="#">'.$row2["area"].'</a>';
-            // }
-            // echo '</p>'
-
-
-            // echo '<p class="h2">Programs</p>';
-            // echo '<p class="h2">Bachelors (Under graduate - UG )
-            // <span><a href="#">coming soon</a></span>
-            // </p>';
-            // echo '<p class="h2">Masters
-            // <span><a href="#">coming soon</a></span>
-            // </p>';
-            // echo '<p class="h2">PhDs
-            // <span><a href="#">coming soon</a></span>
-            // </p>';
             }
         }
         if(isset($_GET) && isset($_GET['id']))
@@ -81,33 +63,33 @@ myheader();
             $id = $_GET['id'];
             $sql = "SELECT * FROM ptc_name WHERE `occupation` LIKE '%".$id."%'";
             echo $sql;
-            // $data = $connect->query($sql);
-            // $total = $data->rowCount();
+            $data = $connect->query($sql);
+            $total = $data->rowCount();
 
-            // foreach ($data as $row) {
-            // echo '<p class="h1"><i class="fa fa-institution">'.$row["name"]."  [" . $row['logo'] . "]".'</i></p>';
-            // echo '<p class="h2">About</p>
-            // <p class="h2">'.$row['aboutus'].'</p>';
-            // echo '<p class="h2">Website : <a target="_blank" href='.$row['website'].'>'.$row['website'].'</a></p>';
-            // ///
-            // $occupationList = explode(',', $row['occupation']);
-            // $sqlCondition = "";
-            // foreach ($occupationList as $list) {
-            //     $sqlCondition .="`id` = $list";
-            //     $sqlCondition .=" OR ";
-            // }
-            // $sqlCondition = substr($sqlCondition, 0, -3);
+            foreach ($data as $row) {
+            echo '<p class="h1"><i class="fa fa-institution">'.$row["name"]."  [" . $row['logo'] . "]".'</i></p>';
+            echo '<p class="h2">About</p>
+            <p class="h2">'.$row['aboutus'].'</p>';
+            echo '<p class="h2">Website : <a target="_blank" href='.$row['website'].'>'.$row['website'].'</a></p>';
+            ///
+            $occupationList = explode(',', $row['occupation']);
+            $sqlCondition = "";
+            foreach ($occupationList as $list) {
+                $sqlCondition .="`id` = $list";
+                $sqlCondition .=" OR ";
+            }
+            $sqlCondition = substr($sqlCondition, 0, -3);
 
-            // $sql2 = "SELECT * FROM ptc_occupation WHERE " . $sqlCondition;
-            // $data2 = $connect->query($sql2);
-            // $total2 = $data2->rowCount();
+            $sql2 = "SELECT * FROM ptc_occupation WHERE " . $sqlCondition;
+            $data2 = $connect->query($sql2);
+            $total2 = $data2->rowCount();
 
-            // echo '<p class="h2">Available Programs</p>';
-            // $courses = "";
-            // foreach ($data2 as $row2) {
-            //     echo "<a href=./main.institutes.gov.php?id=" . $row2['id'] .">".$row2["area"].',</a>&nbsp;&nbsp;';
-            // }
-            // }
+            echo '<p class="h2">Available Programs</p>';
+            $courses = "";
+            foreach ($data2 as $row2) {
+                echo "<a href=./main.institutes.gov.php?id=" . $row2['id'] .">".$row2["area"].',</a>&nbsp;&nbsp;';
+            }
+            }
         }
         echo "</div>";
         echo "</div>";
