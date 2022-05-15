@@ -45,7 +45,7 @@ myheader();
                 $sqlCondition .=" OR ";
             }
 
-            $sql = "SELECT * FROM `ptc-occupation` WHERE " . $sqlCondition;
+            $sql = "SELECT * FROM ptc_occupation WHERE " . $sqlCondition;
             $data = $connect->query($sql);
             $total = $data->rowCount();
 
