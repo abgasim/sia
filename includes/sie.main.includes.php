@@ -11,7 +11,7 @@ function myheader()
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>sie</title>
+    <title>studyinaddis</title>
     <link rel="shortcut icon" href="../img/flag.ico">
 
     <script src="https://use.fontawesome.com/61d813f638.js"></script>

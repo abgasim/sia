@@ -50,7 +50,7 @@ myheader();
             $data2 = $connect->query($sql2);
             $total2 = $data2->rowCount();
 
-            echo '<p class="h2">Available Occupations</p>';
+            echo '<p class="h2">Available Programs</p>';
 
             foreach ($data2 as $row2) {
                 echo '<a href="#">'.$row2["area"].'</a>&nbsp;&nbsp;';
