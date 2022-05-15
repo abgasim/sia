@@ -2,7 +2,7 @@
 
 require_once $_SERVER['DOCUMENT_ROOT'].'/includes/sie.main.connect.php';
 require_once $_SERVER['DOCUMENT_ROOT'].'/includes/sie.main.includes.php';
-function sie_header()
+function header()
 {
     echo '
     <!DOCTYPE html>
@@ -12,7 +12,7 @@ function sie_header()
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>sie</title>
-    <link rel="shortcut icon" href="../sie_img/flag.ico">
+    <link rel="shortcut icon" href="../img/flag.ico">
 
     <script src="https://use.fontawesome.com/61d813f638.js"></script>
     <!-- Latest compiled and minified CSS -->
@@ -42,15 +42,15 @@ function sie_header()
 
     </h1>
     <ul>
-    <li><a class="h3 links" href = "../sie_includes/sie.main.institutes.gov.php"><i class="fa fa-institution"></i>Institutes,Universities, & Colleges List<br>(More than 38 institutes)</a>
+    <li><a class="h3 links" href = "../includes/sie.main.institutes.gov.php"><i class="fa fa-institution"></i>Institutes,Universities, & Colleges List<br>(More than 38 institutes)</a>
 
     </li>
-    <li><a class="h3 links" href = "../sie_includes/sie.main.scholarship.php"><i class="fa fa-link"></i>Scholarships and Studying abroad<br>(UK,USA,EUROPE)</a></li>
-    <li><a class="h3 links" href = "../sie_includes/sie.main.certification.php"><i class="fa fa-certificate"></i>Certifications & Online Courses<br> (IELTS,TOEFL,UDACITY,MoSHE,...)</a></li>
+    <li><a class="h3 links" href = "../includes/sie.main.scholarship.php"><i class="fa fa-link"></i>Scholarships and Studying abroad<br>(UK,USA,EUROPE)</a></li>
+    <li><a class="h3 links" href = "../includes/sie.main.certification.php"><i class="fa fa-certificate"></i>Certifications & Online Courses<br> (IELTS,TOEFL,UDACITY,MoSHE,...)</a></li>
 
-    <li><a class="h3 links" href = "../sie_includes/sie.main.aboutus.php">About Us</a></li>
+    <li><a class="h3 links" href = "../includes/sie.main.aboutus.php">About Us</a></li>
     
-       <li><a class="h3 links" href = "../sie_includes/sie.main.forms1.php">Form</a></li>
+       <li><a class="h3 links" href = "../includes/sie.main.forms1.php">Form</a></li>
 
     </ul>
 </div>
@@ -59,9 +59,9 @@ function sie_header()
 // <input type="text" placeholder="Search.." name="search">
 // <button type="submit"><i class="fa fa-search"></i></button>
 // </form>
-// <li><a class="h3 links" href = "./sie_includes/sie.main.resources.php"><i class="fa fa-book"></i>Resource</a></li>
-// <li><a class="h3 links" href = "./sie_includes/sie.main.donate.php">Donation</a></li>
-// <li><a class="h3 links" href = "./sie_includes/sie.main.student.portal.php"><i class="fa fa-sign-in"></i>Portal</a></li>
+// <li><a class="h3 links" href = "./includes/sie.main.resources.php"><i class="fa fa-book"></i>Resource</a></li>
+// <li><a class="h3 links" href = "./includes/sie.main.donate.php">Donation</a></li>
+// <li><a class="h3 links" href = "./includes/sie.main.student.portal.php"><i class="fa fa-sign-in"></i>Portal</a></li>
 
 // <ul>
 // <li><a class="h3 links" href = "./sie.internal.upload.php">upload</a></li>
@@ -70,7 +70,7 @@ function sie_header()
 // </ul>
 }
 
-function sie_footer(){
+function footer(){
     echo '<footer class="footer-section" style="text-align: center">Copyright © SiE 2021 , Powered By <a href="https://abgasim.com/">ABGASIM</a></footer>';
     echo '</html>';
 }
