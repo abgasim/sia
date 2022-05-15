@@ -33,15 +33,7 @@ myheader();
 
             foreach ($data as $row) {
                 echo '<p class="h1"><i class="fa fa-institution">&nbsp;' . $row["name"] . "  [" . $row['logo'] . "]" . '</i></p>';
-                echo '<p class="h2">About</p>';
-                echo '<p class="h2">' . $row['aboutus'] . '</p>';
-                echo '<p class="h2">Address</p>';
-                echo '<p class="h3">';
-                echo 'Location : ' . $row['location'] .'</br>';
-                echo 'Phone    : ' . $row['phone'] . '</br>';
-                echo 'Website  : <a target="_blank" href=' . $row['website'] . '>' . $row['website'] . '</a></br>';
-                echo'</p>';
-
+                
                 ///
                 $occupationList = explode(',', $row['occupation']);
                 $sqlCondition = "";
@@ -60,6 +52,16 @@ myheader();
                 foreach ($data2 as $row2) {
                     echo '<a href="./main.institutes.search.php?id=' . $row2["id"] . '&area=' . $row2["area"] . '">' . $row2["area"] . ',</a>&nbsp;&nbsp;';
                 }
+
+                echo '<p class="h2">About</p>';
+                echo '<p class="h2">' . $row['aboutus'] . '</p>';
+                echo '<p class="h2">Address</p>';
+                echo '<p class="h3">';
+                echo 'Location : ' . $row['location'] .'</br>';
+                echo 'Phone    : ' . $row['phone'] . '</br>';
+                echo 'Website  : <a target="_blank" href=' . $row['website'] . '>' . $row['website'] . '</a></br>';
+                echo'</p>';
+
             }
         }
         echo "</div>";
