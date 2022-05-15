@@ -56,6 +56,7 @@ myheader();
                 $courses .= '<a href="#">'.$row2["area"].'</a>&nbsp;&nbsp;,';
             }
             $courses = substr($courses, 0, -1);
+            echo $courses;
 
             // echo '<p class="h2">Available Occupations</p>';
             // echo '<p>';
