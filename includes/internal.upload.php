@@ -1,10 +1,10 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'].'/sie_includes/sie.main.includes.php';;
+require_once $_SERVER['DOCUMENT_ROOT'].'/includes/main.includes.php';;
 myheader();
 ?>
 <div class="container">
   <h2>Data Entry form</h2>
-  <form action="/sie.internal.action.php" method="post">
+  <form action="/internal.action.php" method="post">
     <div class="form-group">
       <label for="name">Institute</label>
       <select name="name" id="name" class="form-control" >
