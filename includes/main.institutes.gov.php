@@ -36,9 +36,11 @@ myheader();
                 echo '<p class="h2">About</p>';
                 echo '<p class="h2">' . $row['aboutus'] . '</p>';
                 echo '<p class="h2">Address</p>';
-                echo '<p class="h3">Location : <a target="_blank" href=' . $row['location'] . '>' . $row['website'] . '</a></p>';
-                echo '<p class="h3">Phone    : <a target="_blank" href=' . $row['phone'] . '>' . $row['website'] . '</a></p>';
-                echo '<p class="h3">Website  : <a target="_blank" href=' . $row['website'] . '>' . $row['website'] . '</a></p>';
+                echo '<p class="h3">';
+                echo 'Location : ' . $row['location'] .'</br>';
+                echo 'Phone    : ' . $row['phone'] . '</br>';
+                echo 'Website  : <a target="_blank" href=' . $row['website'] . '>' . $row['website'] . '</a></br>';
+                echo'</p>';
 
                 ///
                 $occupationList = explode(',', $row['occupation']);
