@@ -68,6 +68,6 @@ function myheader()
 }
 
 function myfooter(){
-    echo '<footer class="footer-section" style="text-align: center">Copyright © SiE 2021 , Powered By <a href="https://abgasim.com/">ABGASIM</a></footer>';
+    echo '<footer class="footer-section" style="text-align: center">Copyright © SiE 2022 , Powered By <a href="#">GABE Technology Solution</a></footer>';
     echo '</html>';
 }
