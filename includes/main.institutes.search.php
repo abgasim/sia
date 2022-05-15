@@ -16,9 +16,10 @@ myheader();
             echo '<p class="h2">Found ('.$total.') Colleges in  ' . $_GET["area"] . '</p>';
             echo '<p class="h2">';
             foreach ($data as $row) {
-                echo  "<a href=./main.institutes.gov.php?logo=" . $row['logo'] . ">";
+                
+                echo  "<div><a href=./main.institutes.gov.php?logo=" . $row['logo'] . ">";
                 echo $row['name']. "&nbsp;[" . $row['logo'] . "]";
-                echo "</a><br>";
+                echo "</a></div>";
             }
             echo '</p>';
         }
