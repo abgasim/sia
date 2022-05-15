@@ -63,9 +63,11 @@ myheader();
             $data = $connect->query($sql);
             $total = $data->rowCount();
             echo '<p class="h2">Found ('.$total.') Colleges in  ' . $_GET["area"] . '</p>';
+            echo '<p class="h1">';
             foreach ($data as $row) {
-                echo '<p class="h1"><i class="fa fa-institution">' . $row["name"] . "  [" . $row['logo'] . "]" . '</i></p>';
+                echo $row["name"] . "  [" . $row['logo'] . "]" . ',';
             }
+            echo '</p>';
         }
         echo "</div>";
         echo "</div>";
