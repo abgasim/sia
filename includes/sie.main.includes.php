@@ -2,7 +2,7 @@
 
 require_once $_SERVER['DOCUMENT_ROOT'].'/includes/sie.main.connect.php';
 require_once $_SERVER['DOCUMENT_ROOT'].'/includes/sie.main.includes.php';
-function header()
+function myheader()
 {
     echo '
     <!DOCTYPE html>
@@ -70,7 +70,7 @@ function header()
 // </ul>
 }
 
-function footer(){
+function myfooter(){
     echo '<footer class="footer-section" style="text-align: center">Copyright © SiE 2021 , Powered By <a href="https://abgasim.com/">ABGASIM</a></footer>';
     echo '</html>';
 }

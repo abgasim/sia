@@ -1,7 +1,7 @@
 <?php
 require_once './includes/sie.main.connect.php';
 require_once './includes/sie.main.includes.php';
-header();
+myheader();
 ?>
 <body>
     <div class="middle-section">
@@ -24,6 +24,6 @@ header();
     </div>
 </body>
 <?php
-footer();
+myfooter();
 ?>
 </html>
