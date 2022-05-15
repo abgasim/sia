@@ -56,9 +56,15 @@ myheader();
             $total2 = $data2->rowCount();
             echo "crashing here ....";
 
+            // foreach ($data2 as $row2) {
+            //     echo $row2['area'];
+            // }
+            echo '<p class="h2">Available Occupations</p>';
+            echo '<p>';
             foreach ($data2 as $row2) {
-                echo $row2['area'];
+                echo '<a class="h3" href="#">'.$row2['area'].'</a>';
             }
+            echo '</p>'
             echo "crashing here ....";
 
 
