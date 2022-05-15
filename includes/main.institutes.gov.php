@@ -19,7 +19,7 @@ myheader();
             echo  "<a href=./main.institutes.gov.php?logo=" . $row['logo'] . ">";
 
             echo "<div>" . $row['name'];
-            echo "[" . $row['logo'] . "]";
+            echo "&nbsp;[" . $row['logo'] . "]";
             echo "</div></a>";
         }
         echo "</div>";

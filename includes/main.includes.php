@@ -68,6 +68,6 @@ function myheader()
 }
 
 function myfooter(){
-    echo '<footer class="footer-section" style="text-align: center">Copyright © SiE 2022 , Powered By <a href="#">GABE Technology Solution</a></footer>';
+    echo '<footer class="footer-section" style="text-align: center">Copyright © SIA 2022 , Powered By <a href="#">GABE Technology Solution</a></footer>';
     echo '</html>';
 }
