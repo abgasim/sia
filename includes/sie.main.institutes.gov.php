@@ -42,7 +42,7 @@ myheader();
             $occupationList = explode(',', $row['occupation']);
             $sqlCondition = "";
             foreach ($occupationList as $list) {
-                $sqlCondition .="ìd = $list";
+                $sqlCondition .="`id` = $list";
                 $sqlCondition .=" OR ";
             }
             echo "crashin here ....";
