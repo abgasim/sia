@@ -46,7 +46,7 @@ function myheader()
     <li>
   
     <div class="dropdown">
-    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+    <button class="h3 links dropdown-toggle" type="button" data-toggle="dropdown">Programs
     <span class="caret"></span></button>
     <ul class="dropdown-menu">
       <li><a href="#">HTML</a></li>
