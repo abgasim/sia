@@ -28,7 +28,7 @@ myheader();
         if(isset($_GET) && isset($_GET['logo']))
         {
             $shortName = $_GET['logo'];
-            $sql = "SELECT * FROM ptc_name ORDER BY name";
+            $sql = "SELECT * FROM ptc_name WHERE logo = ".  $shortName;
             $data = $connect->query($sql);
             $total = $data->rowCount();
 
