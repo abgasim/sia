@@ -56,7 +56,7 @@ myheader();
                 echo '<p class="h2">About</p>';
                 echo '<p class="h2">' . $row['aboutus'] . '</p>';
                 echo '<p class="h2">Address</p>';
-                echo '<p class="h3">';
+                echo '<p class="h4">';
                 echo 'Location : ' . $row['location'] .'</br>';
                 echo 'Phone    : ' . $row['phone'] . '</br>';
                 echo 'Website  : <a target="_blank" href=' . $row['website'] . '>' . $row['website'] . '</a></br>';
