@@ -1,7 +1,7 @@
 <?php
 
-require_once $_SERVER['DOCUMENT_ROOT'].'/sie_includes/sie.main.connect.php';
-require_once $_SERVER['DOCUMENT_ROOT'].'/sie_includes/sie.main.includes.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/includes/sie.main.connect.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/includes/sie.main.includes.php';
 function sie_header()
 {
     echo '
