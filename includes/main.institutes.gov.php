@@ -32,10 +32,14 @@ myheader();
             $total = $data->rowCount();
 
             foreach ($data as $row) {
-                echo '<p class="h1"><i class="fa fa-institution">' . $row["name"] . "  [" . $row['logo'] . "]" . '</i></p>';
-                echo '<p class="h2">About</p>
-            <p class="h2">' . $row['aboutus'] . '</p>';
-                echo '<p class="h2">Website : <a target="_blank" href=' . $row['website'] . '>' . $row['website'] . '</a></p>';
+                echo '<p class="h1"><i class="fa fa-institution">&nbsp;' . $row["name"] . "  [" . $row['logo'] . "]" . '</i></p>';
+                echo '<p class="h2">About</p>';
+                echo '<p class="h2">' . $row['aboutus'] . '</p>';
+                echo '<p class="h2">Address</p>';
+                echo '<p class="h3">Location : <a target="_blank" href=' . $row['location'] . '>' . $row['website'] . '</a></p>';
+                echo '<p class="h3">Phone    : <a target="_blank" href=' . $row['phone'] . '>' . $row['website'] . '</a></p>';
+                echo '<p class="h3">Website  : <a target="_blank" href=' . $row['website'] . '>' . $row['website'] . '</a></p>';
+
                 ///
                 $occupationList = explode(',', $row['occupation']);
                 $sqlCondition = "";
