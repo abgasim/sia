@@ -39,10 +39,11 @@ function myheader()
         <a href="../index.php"><span style="color: white">www.studyinaddis.com</span></a>
     </h1>
     <ul>
-    <li><a class="h3 links" href = "../includes/sie.main.institutes.gov.php"><i class="fa fa-institution"></i>PTC List</a>
+    <li>
+    <a class="h3 links" href = "../includes/sie.main.institutes.gov.php"><i class="fa fa-institution"></i>PTC List</a>
 
     </li>
-
+    <li><a class="h3 links" href = "../includes/sie.main.aboutus.php">About Us</a></li>
 
     </ul>
 </div>
