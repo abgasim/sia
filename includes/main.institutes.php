@@ -1,5 +1,5 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'].'/sie_includes/sie.main.includes.php';;
+require_once $_SERVER['DOCUMENT_ROOT'].'/includes/main.includes.php';;
 myheader();
 ?>
     <div class="middle-section">
@@ -20,7 +20,7 @@ myheader();
             }
 
             $documnetRootPath = $_SERVER['DOCUMENT_ROOT'];
-            require_once $documnetRootPath . '/sie.main.connect.php';
+            require_once $documnetRootPath . '/main.connect.php';
 
 
             echo "<div class='row' style='padding:20px'>";

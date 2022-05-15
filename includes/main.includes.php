@@ -1,7 +1,7 @@
 <?php
 
-require_once $_SERVER['DOCUMENT_ROOT'].'/includes/sie.main.connect.php';
-require_once $_SERVER['DOCUMENT_ROOT'].'/includes/sie.main.includes.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/includes/main.connect.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/includes/main.includes.php';
 function myheader()
 {
     echo '
@@ -27,7 +27,7 @@ function myheader()
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/sie.css">
+    <link rel="stylesheet" href="../css/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5528376568579945"
      crossorigin="anonymous"></script>
@@ -40,30 +40,30 @@ function myheader()
     </h1>
     <ul>
     <li>
-    <a class="h3 links" href = "../includes/sie.main.institutes.gov.php"><i class="fa fa-institution"></i>PTC List</a>
+    <a class="h3 links" href = "../includes/main.institutes.gov.php"><i class="fa fa-institution"></i>PTC List</a>
 
     </li>
-    <li><a class="h3 links" href = "../includes/sie.main.aboutus.php">About Us</a></li>
+    <li><a class="h3 links" href = "../includes/main.aboutus.php">About Us</a></li>
 
     </ul>
 </div>
 </header>';
-// <li><a class="h3 links" href = "../includes/sie.main.scholarship.php"><i class="fa fa-link"></i>Scholarships and Studying abroad<br>(UK,USA,EUROPE)</a></li>
-// <li><a class="h3 links" href = "../includes/sie.main.certification.php"><i class="fa fa-certificate"></i>Certifications & Online Courses<br> (IELTS,TOEFL,UDACITY,MoSHE,...)</a></li>
+// <li><a class="h3 links" href = "../includes/main.scholarship.php"><i class="fa fa-link"></i>Scholarships and Studying abroad<br>(UK,USA,EUROPE)</a></li>
+// <li><a class="h3 links" href = "../includes/main.certification.php"><i class="fa fa-certificate"></i>Certifications & Online Courses<br> (IELTS,TOEFL,UDACITY,MoSHE,...)</a></li>
 
-// <li><a class="h3 links" href = "../includes/sie.main.aboutus.php">About Us</a></li>
+// <li><a class="h3 links" href = "../includes/main.aboutus.php">About Us</a></li>
 
-//    <li><a class="h3 links" href = "../includes/sie.main.forms1.php">Form</a></li>
+//    <li><a class="h3 links" href = "../includes/main.forms1.php">Form</a></li>
 // <form class="example" action="/action_page.php">
 // <input type="text" placeholder="Search.." name="search">
 // <button type="submit"><i class="fa fa-search"></i></button>
 // </form>
-// <li><a class="h3 links" href = "./includes/sie.main.resources.php"><i class="fa fa-book"></i>Resource</a></li>
-// <li><a class="h3 links" href = "./includes/sie.main.donate.php">Donation</a></li>
-// <li><a class="h3 links" href = "./includes/sie.main.student.portal.php"><i class="fa fa-sign-in"></i>Portal</a></li>
+// <li><a class="h3 links" href = "./includes/main.resources.php"><i class="fa fa-book"></i>Resource</a></li>
+// <li><a class="h3 links" href = "./includes/main.donate.php">Donation</a></li>
+// <li><a class="h3 links" href = "./includes/main.student.portal.php"><i class="fa fa-sign-in"></i>Portal</a></li>
 
 // <ul>
-// <li><a class="h3 links" href = "./sie.internal.upload.php">upload</a></li>
+// <li><a class="h3 links" href = "./internal.upload.php">upload</a></li>
 // <li><a href="sie.main.institutes.gov.php">Governmental </a></li>
 // <li><a href="sie.main.institutes.private.php">Private </a></li>
 // </ul>

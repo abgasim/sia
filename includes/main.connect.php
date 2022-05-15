@@ -1,7 +1,7 @@
 <?php
 //connect DB
-/*if (file_exists('/home/a1e50s1696c1/sie.ini')) {
-    $config = parse_ini_file('/home/a1e50s1696c1/sie.ini');
+/*if (file_exists('/home/a1e50s1696c1/ini')) {
+    $config = parse_ini_file('/home/a1e50s1696c1/ini');
     define("DBHOST", $config["DBHOST"]);
     define("DBUSER", $config["DBUSER"]);
     define("DBPASSWORD", $config["DBPASSWORD"]);
