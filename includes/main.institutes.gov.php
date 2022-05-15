@@ -52,22 +52,9 @@ myheader();
                 echo '<p class="h2">Available Programs</p>';
                 $courses = "";
                 foreach ($data2 as $row2) {
-                    echo '<a href="./main.institutes.gov.php?id=' . $row2["id"] . '&area=' . $row2["area"] . '">' . $row2["area"] . ',</a>&nbsp;&nbsp;';
+                    echo '<a href="./main.institutes.search.php?id=' . $row2["id"] . '&area=' . $row2["area"] . '">' . $row2["area"] . ',</a>&nbsp;&nbsp;';
                 }
             }
-        }
-        if (isset($_GET) && isset($_GET['id'])) {
-            $id = $_GET['id'];
-            $sql = "SELECT * FROM ptc_name WHERE `occupation` LIKE '%" . $id . "%'";
-            echo $sql;
-            $data = $connect->query($sql);
-            $total = $data->rowCount();
-            echo '<p class="h2">Found ('.$total.') Colleges in  ' . $_GET["area"] . '</p>';
-            echo '<p class="h1">';
-            foreach ($data as $row) {
-                echo $row["name"] . "  [" . $row['logo'] . "]" . ',';
-            }
-            echo '</p>';
         }
         echo "</div>";
         echo "</div>";
