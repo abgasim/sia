@@ -25,4 +25,3 @@ myheader();
 <?php
 myfooter();
 ?>
-</html>

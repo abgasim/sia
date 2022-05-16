@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <title>Form</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
+<?php
+require_once './includes/main.connect.php';
+require_once './includes/main.includes.php';
+myheader();
+?>
   <body>
     <form>
       <div class="form-group row">
@@ -22,4 +18,7 @@
       </div>
     </form>
   </body>
-</html>
+</body>
+<?php
+myfooter();
+?>

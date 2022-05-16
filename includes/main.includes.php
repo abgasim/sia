@@ -1,7 +1,7 @@
 <?php
 
-require_once $_SERVER['DOCUMENT_ROOT'].'/includes/main.connect.php';
-require_once $_SERVER['DOCUMENT_ROOT'].'/includes/main.includes.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/main.connect.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/main.includes.php';
 function myheader()
 {
     echo '
@@ -45,32 +45,34 @@ function myheader()
     <li><a class="h3 links" href = "../includes/main.resources.php"><i class="fa fa-book"></i>&nbsp;Resource</a></li>
     <li><a class="h3 links" href = "../includes/main.donate.php"><i class="fa fa-heart"></i>&nbsp;Donation</a></li>
     <li><a class="h3 links" href = "../includes/main.student.portal.php"><i class="fa fa-sign-in">&nbsp;</i>Student portal</a></li>
+    <li><a class="h3 links" href = "../forms/all_forms.php">Form</a></li>
     <li><a class="h3 links" href = "../includes/main.aboutus.php">About Us</a></li>
     </ul>
 </div>
 </header>';
-// <li><a class="h3 links" href = "../includes/main.scholarship.php"><i class="fa fa-link"></i>Scholarships and Studying abroad<br>(UK,USA,EUROPE)</a></li>
-// <li><a class="h3 links" href = "../includes/main.certification.php"><i class="fa fa-certificate"></i>Certifications & Online Courses<br> (IELTS,TOEFL,UDACITY,MoSHE,...)</a></li>
+    // <li><a class="h3 links" href = "../includes/main.scholarship.php"><i class="fa fa-link"></i>Scholarships and Studying abroad<br>(UK,USA,EUROPE)</a></li>
+    // <li><a class="h3 links" href = "../includes/main.certification.php"><i class="fa fa-certificate"></i>Certifications & Online Courses<br> (IELTS,TOEFL,UDACITY,MoSHE,...)</a></li>
 
-// <li><a class="h3 links" href = "../includes/main.aboutus.php">About Us</a></li>
+    // <li><a class="h3 links" href = "../includes/main.aboutus.php">About Us</a></li>
 
-//    <li><a class="h3 links" href = "../includes/main.forms1.php">Form</a></li>
-// <form class="example" action="/action_page.php">
-// <input type="text" placeholder="Search.." name="search">
-// <button type="submit"><i class="fa fa-search"></i></button>
-// </form>
-// <li><a class="h3 links" href = "./includes/main.resources.php"><i class="fa fa-book"></i>Resource</a></li>
-// <li><a class="h3 links" href = "./includes/main.donate.php">Donation</a></li>
-// <li><a class="h3 links" href = "./includes/main.student.portal.php"><i class="fa fa-sign-in"></i>Portal</a></li>
+    //    <li><a class="h3 links" href = "../includes/main.forms1.php">Form</a></li>
+    // <form class="example" action="/action_page.php">
+    // <input type="text" placeholder="Search.." name="search">
+    // <button type="submit"><i class="fa fa-search"></i></button>
+    // </form>
+    // <li><a class="h3 links" href = "./includes/main.resources.php"><i class="fa fa-book"></i>Resource</a></li>
+    // <li><a class="h3 links" href = "./includes/main.donate.php">Donation</a></li>
+    // <li><a class="h3 links" href = "./includes/main.student.portal.php"><i class="fa fa-sign-in"></i>Portal</a></li>
 
-// <ul>
-// <li><a class="h3 links" href = "./internal.upload.php">upload</a></li>
-// <li><a href="sie.main.institutes.gov.php">Governmental </a></li>
-// <li><a href="sie.main.institutes.private.php">Private </a></li>
-// </ul>
+    // <ul>
+    // <li><a class="h3 links" href = "./internal.upload.php">upload</a></li>
+    // <li><a href="sie.main.institutes.gov.php">Governmental </a></li>
+    // <li><a href="sie.main.institutes.private.php">Private </a></li>
+    // </ul>
 }
 
-function myfooter(){
+function myfooter()
+{
     echo '<footer class="footer-section" style="text-align: center">Copyright © SIA 2022 , Powered By <a href="#">GABE Technology Solution</a></footer>';
     echo '</html>';
 }
