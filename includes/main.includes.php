@@ -12,7 +12,7 @@ function myheader()
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>studyinaddis</title>
-    <link rel="shortcut icon" href="../img/flag.ico">
+    <link rel="shortcut icon" href="../images/favicon.ico">
 
     <script src="https://use.fontawesome.com/61d813f638.js"></script>
     <!-- Latest compiled and minified CSS -->
