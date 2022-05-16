@@ -23,6 +23,21 @@ myheader();
             }
             echo '</p>';
         }
+        if (isset($_GET) && isset($_GET['level'])) {
+            $id = $_GET['level'];
+            $sql = "SELECT * FROM ptc_name WHERE `level` LIKE '%" . $id . "%'";
+            $data = $connect->query($sql);
+            $total = $data->rowCount();
+            echo '<p class="h2">Found ('.$total.') Colleges with level ' . $_GET["name"] . '</p>';
+            echo '<p class="h2">';
+            foreach ($data as $row) {
+                
+                echo  "<div><a href=./main.institutes.gov.php?logo=" . $row['logo'] . ">";
+                echo $row['name']. "&nbsp;[" . $row['logo'] . "]";
+                echo "</a></div>";
+            }
+            echo '</p>';
+        }
         echo "</div>";
         ?>
 
