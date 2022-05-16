@@ -34,15 +34,17 @@ function myheader()
 </head>
 <header>
 <div class="header">
-   
-        <p class="h1">
+    <h1>
+        <p class="h1" style="font-weight:bold">
         <a href="../index.php">
         <span style="color: white;margin-left: 20px;">www.studyinaddis.com</span>
 
         </p>
-
+    </h1>
     <ul>
-    <li><a class="h3 links" href = "../includes/main.institutes.gov.php"><i class="fa fa-institution"></i>&nbsp;Polytechnic and College Lists</a></li>
+    <li>
+    <a class="h3 links" href = "../includes/main.institutes.gov.php"><i class="fa fa-institution"></i>&nbsp;Polytechnic and College Lists</a>
+    </li>
     <li><a class="h3 links" href = "../includes/main.resources.php"><i class="fa fa-book"></i>&nbsp;Resource</a></li>
     <li><a class="h3 links" href = "../includes/main.donate.php"><i class="fa fa-heart"></i>&nbsp;Donation</a></li>
     <li><a class="h3 links" href = "../includes/main.student.portal.php"><i class="fa fa-sign-in">&nbsp;</i>Login</a></li>
