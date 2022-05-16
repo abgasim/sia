@@ -35,9 +35,9 @@ function myheader()
 <header>
 <div class="header">
     <h1>
-        <p class="h1" style="font-weight:bold">
+        <p class="h1" style="margin-left: 20px;">
         <a href="../index.php">
-        <span style="color: white;margin-left: 20px;">www.studyinaddis.com</span>
+        <span style="color: white;">www.studyinaddis.com</span>
 
         </p>
     </h1>
