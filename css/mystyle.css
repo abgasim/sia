@@ -252,10 +252,8 @@ form.example input[type=text] {
     position: absolute;
     width:100%;
     height: 50px;
-    /* padding: 20px 10px; */
+    padding: 20px 10px;
     background-color:#209CEE;
-     /* midnightblue; */
-    /*#232f3e;*/
     color: white;
     bottom:0;
 }
