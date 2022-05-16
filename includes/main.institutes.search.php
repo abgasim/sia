@@ -13,7 +13,7 @@ myheader();
             $sql = "SELECT * FROM ptc_name WHERE `occupation` LIKE '%" . $id . "%'";
             $data = $connect->query($sql);
             $total = $data->rowCount();
-            echo '<p class="h2">Found ('.$total.') Colleges in  ' . $_GET["area"] . '</p>';
+            echo '<p class="h2">Found ('.$total.') Colleges in <strong>' . $_GET["area"] . '</strong></p>';
             echo '<p class="h2">';
             foreach ($data as $row) {
                 
@@ -29,7 +29,7 @@ myheader();
             $sql = "SELECT * FROM ptc_name WHERE `level_id` = " . $id;
             $data = $connect->query($sql);
             $total = $data->rowCount();
-            echo '<p class="h2">Found ('.$total.') Colleges with level ' . $_GET["name"] . '</p>';
+            echo '<p class="h2">Found ('.$total.') Colleges with <strong>' . $_GET["name"] . '</strong></p>';
             echo '<p class="h2">';
             foreach ($data as $row) {
                 
@@ -45,7 +45,7 @@ myheader();
             $sql = "SELECT * FROM ptc_name WHERE `subcity_id` = " . $id ;
             $data = $connect->query($sql);
             $total = $data->rowCount();
-            echo '<p class="h2">Found ('.$total.') Colleges in Location ' . $_GET["name"] . '</p>';
+            echo '<p class="h2">Found ('.$total.') Colleges in <strong>' . $_GET["name"] . '</strong></p>';
             echo '<p class="h2">';
             foreach ($data as $row) {                
                 echo  "<div><a href=./main.institutes.gov.php?logo=" . $row['logo'] . ">";
