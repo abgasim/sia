@@ -42,7 +42,7 @@ myheader();
         ///
         if (isset($_GET) && isset($_GET['subcity_id'])) {
             $id = $_GET['subcity_id'];
-            $sql = "SELECT * FROM ptc_name WHERE `subcity_id` LIKE '%" . $id . "%'";
+            $sql = "SELECT * FROM ptc_name WHERE `subcity_id` = " . $id ;
             $data = $connect->query($sql);
             $total = $data->rowCount();
             echo '<p class="h2">Found ('.$total.') Colleges in Location ' . $_GET["name"] . '</p>';
