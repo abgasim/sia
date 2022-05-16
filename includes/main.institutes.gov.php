@@ -57,12 +57,16 @@ myheader();
                 echo '<p class="h2">' . $row['aboutus'] . '</p>';
                 echo '<p class="h2">Address</p>';
                 echo '<p class="h4">';
-                $lsql = "SELECT * FROM ptc_level WHERE `id` = \"" .  $row['level'] . "\"";
+                $lsql = "SELECT * FROM ptc_level WHERE `id` = \"" .  $row['level_id'] . "\"";
                 $ldata = $connect->query($lsql);
                 foreach ($ldata as $lrow) {
-                    echo 'Level : <a href="./main.institutes.search.php?level=' . $lrow["id"] . '&name=' . $row2["level"] .  '">' . $lrow["level"] . '</a></br>';                    
+                    echo 'Level : <a href="./main.institutes.search.php?level=' . $lrow["id"] . '&name=' . $lrow["level"] .  '">' . $lrow["level"] . '</a></br>';                    
                 }
-                echo 'Location : ' . $row['subcity'] . '</br>';
+                $ssql = "SELECT * FROM addis_subcity WHERE `id` = \"" .  $row['subcity_id'] . "\"";
+                $sdata = $connect->query($ssql);
+                foreach ($sdata as $srow) {
+                    echo 'Location : <a href="./main.institutes.search.php?subcity_id=' . $srow["id"] . '&name=' . $srow["name"] .  '">' . $srow["name"] . '</a></br>';                    
+                }
                 echo 'Phone    : ' . $row['phone'] . '</br>';
                 echo 'Website  : <a target="_blank" href=' . $row['website'] . '>' . $row['website'] . '</a></br>';
                 echo '</p>';
