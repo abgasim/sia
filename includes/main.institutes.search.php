@@ -104,6 +104,7 @@ myheader();
             echo '</p>';
         }
         echo "</div>";
+        echo "</div>";
         ?>
 
     </div>

@@ -6,9 +6,7 @@ myheader();
     <div class="container-fluid">
         <?php
         echo "<div class='row' style='padding:20px'>";
-
-        echo "<div class='col-md-12' >";
- 
+        echo "<div class='col-md-12' >"; 
 
         $sql = "SELECT * FROM ptc_name ORDER BY name";
         $data = $connect->query($sql);
