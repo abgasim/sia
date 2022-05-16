@@ -40,10 +40,8 @@ li a {
 
 
 li a:hover {
-    background-color: #111111;
-    color: white;
+    color: #111111;
     text-decoration: none;
-    padding: 20px;
 }
 
 
