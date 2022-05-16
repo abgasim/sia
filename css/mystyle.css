@@ -257,8 +257,11 @@ form.example input[type=text] {
     background-color:#209CEE;
      /* midnightblue; */
     /*#232f3e;*/
-    color: gray;
+    color: white;
     bottom:0;
+}
+.footer-section a{
+    color: white;
 }
 
 /*****************************/
