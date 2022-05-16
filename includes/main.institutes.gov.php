@@ -60,9 +60,9 @@ myheader();
                 $lsql = "SELECT * FROM ptc_level WHERE `id` = \"" .  $row['level'] . "\"";
                 $ldata = $connect->query($lsql);
                 foreach ($ldata as $lrow) {
-                    echo 'Level : ' . $lrow['level'] . '</br>';
+                    echo '<a href="./main.institutes.search.php?level=' . $lrow["id"] . '">' . $lrow["level"] . ',</a>';
                 }
-                echo 'Location : ' . $row['subcity'] . '</br>';
+                echo 'Subcity : ' . $row['subcity'] . '</br>';
                 echo 'Phone    : ' . $row['phone'] . '</br>';
                 echo 'Website  : <a target="_blank" href=' . $row['website'] . '>' . $row['website'] . '</a></br>';
                 echo '</p>';
