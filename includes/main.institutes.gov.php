@@ -33,7 +33,7 @@ myheader();
 
             foreach ($data as $row) {
                 echo '<p class="h2"><i class="fa fa-institution">&nbsp;' . $row["name"] . "  [" . $row['logo'] . "]" . '</i></p>';
-                
+
                 ///
                 $occupationList = explode(',', $row['occupation']);
                 $sqlCondition = "";
@@ -59,12 +59,13 @@ myheader();
                 echo '<p class="h4">';
                 $lsql = "SELECT * FROM ptc_level WHERE `id` = \"" .  $row['level'] . "\"";
                 $ldata = $connect->query($lsql);
-                echo 'Level : ' . $ldata['level'] .'</br>';
-                echo 'Location : ' . $row['subcity'] .'</br>';
+                foreach ($ldata as $lrow) {
+                    echo 'Level : ' . $lrow['level'] . '</br>';
+                }
+                echo 'Location : ' . $row['subcity'] . '</br>';
                 echo 'Phone    : ' . $row['phone'] . '</br>';
                 echo 'Website  : <a target="_blank" href=' . $row['website'] . '>' . $row['website'] . '</a></br>';
-                echo'</p>';
-
+                echo '</p>';
             }
         }
         echo "</div>";
