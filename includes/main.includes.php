@@ -37,6 +37,7 @@ function myheader()
     <h1>
         <p class="h1" style="font-weight:bold">
         <a href="../index.php"><span style="color: white">www.studyinaddis.com</span></a>
+        </p>
     </h1>
     <ul>
     <li>
@@ -44,7 +45,7 @@ function myheader()
     </li>
     <li><a class="h3 links" href = "../includes/main.resources.php"><i class="fa fa-book"></i>&nbsp;Resource</a></li>
     <li><a class="h3 links" href = "../includes/main.donate.php"><i class="fa fa-heart"></i>&nbsp;Donation</a></li>
-    <li><a class="h3 links" href = "../includes/main.student.portal.php"><i class="fa fa-sign-in">&nbsp;</i>Student portal</a></li>
+    <li><a class="h3 links" href = "../includes/main.student.portal.php"><i class="fa fa-sign-in">&nbsp;</i>Login</a></li>
     <li><a class="h3 links" href = "../forms/all_forms.php">Forms</a></li>
     <li><a class="h3 links" href = "../includes/main.aboutus.php">About Us</a></li>
     </ul>

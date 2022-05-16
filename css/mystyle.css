@@ -250,9 +250,11 @@ form.example input[type=text] {
 }
 
 .footer-section {
-    position: absolute;
+    position: relative;
     width:100%;
     height: 50px;
+    margin-top: -50px;
+    clear: both;
     padding: 20px 10px;
     background-color:#373e98;
      /* midnightblue; */
