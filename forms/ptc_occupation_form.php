@@ -1,6 +1,6 @@
 <?php
-require_once './includes/main.connect.php';
-require_once './includes/main.includes.php';
+require_once '../includes/main.connect.php';
+require_once '../includes/main.includes.php';
 myheader();
 ?>
 <body>
