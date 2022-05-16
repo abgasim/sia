@@ -24,9 +24,9 @@ myheader();
             echo '</p>';
         }
         ///
-        if (isset($_GET) && isset($_GET['lid'])) {
+        if (isset($_GET) && isset($_GET['level'])) {
             $id = $_GET['level'];
-            $sql = "SELECT * FROM ptc_name WHERE `level_id` LIKE '%" . $id . "%'";
+            $sql = "SELECT * FROM ptc_name WHERE `level_id` = " . $id;
             $data = $connect->query($sql);
             $total = $data->rowCount();
             echo '<p class="h2">Found ('.$total.') Colleges with level ' . $_GET["name"] . '</p>';
