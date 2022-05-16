@@ -7,7 +7,7 @@ myheader();
 <body>
   <div class="middle-section">
     <div class="container-fluid">
-      <div class="col-md-12">
+      <div class="col-md-4">
         <form>
           <div class="form-group row">
             <label for="text" class="col-4 col-form-label">New Occupation</label>

@@ -7,7 +7,7 @@ myheader();
 <body>
   <div class="middle-section">
     <div class="container-fluid">
-      <div class="col-md-12">
+      <div class="col-md-4">
         <form action="sie.main.registration.php" method="GET">
           <div class="form-group row">
             <label for="sia-ptc-name" class="col-4 col-form-label">PTC Name</label>
