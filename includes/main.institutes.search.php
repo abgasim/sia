@@ -53,6 +53,8 @@ myheader();
                 }
                 echo 'Phone    : ' . $row['phone'] . '</br>';
                 echo 'Website  : <a target="_blank" href=' . $row['website'] . '>' . $row['website'] . '</a></br>';
+                echo '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.579817109806!2d38.741905115255236!3d9.010754191754343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85da69ce69ed%3A0x2572971e9e281f63!2sAddis%20Ababa%20Tegbareid%20Polytechnic%20College!5e0!3m2!1sen!2set!4v1652773629811!5m2!1sen!2set" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
+
                 echo '</p>';
             }
         }
