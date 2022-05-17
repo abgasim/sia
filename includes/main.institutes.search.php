@@ -56,7 +56,7 @@ myheader();
 
                 echo '</p>';
                 echo '<p>';
-                echo map($logo);
+                echo $maps[$logo];
                 echo '</p>';
             }
         }
