@@ -1,4 +1,6 @@
 <?php
+require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/main.connect.php';
+
 function getUrl($lang = "en")
 {
     $protocol = ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
@@ -26,7 +28,7 @@ function getUrl($lang = "en")
 }
 function myheader()
 {
-    if (isset($_GET) && $_GET['lang'] == "am") {
+    if (isset($_GET) && $_GET['lan'] == "am") {
         require_once $_SERVER['DOCUMENT_ROOT'] . '/language/am.php';
     } else {
         require_once $_SERVER['DOCUMENT_ROOT'] . '/language/en.php';
