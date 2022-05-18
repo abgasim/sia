@@ -4,19 +4,19 @@ function getUrl($lang = "en")
     $protocol = ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
     $url = $protocol . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
     return $url;
-    if (strpos($url, "lan") !== false) {
-        return $url;
-    }
-    $components = parse_url($url);
-    parse_str($components['query'], $results);
-    if (empty($results)) {
-        return ($url . '?lan=' . $lang);
-    } else {
+    // if (strpos($url, "lan") !== false) {
+    //     return $url;
+    // }
+    // $components = parse_url($url);
+    // parse_str($components['query'], $results);
+    // if (empty($results)) {
+    //     return ($url . '?lan=' . $lang);
+    // } else {
 
 
-        substr_replace("Demo text","word",5)
-        return ($url . '&lan=' . $lang);
-    }
+    //     substr_replace("Demo text","word",5)
+    //     return ($url . '&lan=' . $lang);
+    // }
 }
 function myheader()
 {
@@ -67,7 +67,8 @@ function myheader()
     ';
     // echo 'en en en' . getUrl("en") . '<br>';
     // echo 'am am am' . getUrl("am") . '<br>';
-    var_dump(parse_url(getUrl("en")));
+    $components = parse_url(getUrl("en"));
+    print_r($components);
 
 
     echo '
