@@ -54,15 +54,15 @@ function myheader()
     <h1>
         <p class="h1" style="margin-left: 20px;">
         <a href="../index.php">
-        <img src="../images/android-chrome-192x192.png"><span style="color: white;">www.studyinaddis.com</span>
+        <span style="color: white;">www.studyinaddis.com</span>
         </p>
     </h1>
     <a class="btn btn-primary" href="'.getUrl("en").'">English</a>
     <a class="btn btn-primary" href="'.getUrl("am").'">አማርኛ</a>
     '
     ;
-    echo getUrl("en");
-    echo getUrl("am");
+    echo 'en en en'.getUrl("en").'<br>';
+    echo 'am am am'.getUrl("am").'<br>';
 
     echo '
     <ul>
