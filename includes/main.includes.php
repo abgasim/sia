@@ -101,7 +101,7 @@ function myheader()
         print_r($results);
         $results['lan'] = "hi";
         $urlFinal = '?' . http_build_query($results);
-        header('Location:'.$urlFinal);
+        print_r($urlFinal);
     }
 
 
