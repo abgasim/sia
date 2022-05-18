@@ -80,12 +80,12 @@ function myheader()
 
         echo '
         <ul>
-        <li><a class="h3 links" href = "../includes/main.institutes.gov.php"><i class="fa fa-institution"></i>&nbsp;' . $_TXT[1] . '</a></li>
-        <li><a class="h3 links" href = "../includes/main.resources.php"><i class="fa fa-book"></i>&nbsp;' . $_TXT[2] . '</a></li>
-        <li><a class="h3 links" href = "../includes/main.donate.php"><i class="fa fa-heart"></i>&nbsp;' . $_TXT[3] . '</a></li>
-        <li><a class="h3 links" href = "../includes/main.student.portal.php"><i class="fa fa-sign-in">&nbsp;</i>' . $_TXT[4] . '</a></li>
-        <li><a class="h3 links" href = "../forms/all_forms.php">' . $_TXT[5] . '</a></li>
-        <li><a class="h3 links" href = "../includes/main.aboutus.php">' . $_TXT[6] . '</a></li>
+        <li><a class="h3 links" href = "../includes/main.institutes.gov.php"><i class="fa fa-institution"></i>&nbsp;' . $_TXT[0] . '</a></li>
+        <li><a class="h3 links" href = "../includes/main.resources.php"><i class="fa fa-book"></i>&nbsp;' . $_TXT[1] . '</a></li>
+        <li><a class="h3 links" href = "../includes/main.donate.php"><i class="fa fa-heart"></i>&nbsp;' . $_TXT[2] . '</a></li>
+        <li><a class="h3 links" href = "../includes/main.student.portal.php"><i class="fa fa-sign-in">&nbsp;</i>' . $_TXT[3] . '</a></li>
+        <li><a class="h3 links" href = "../forms/all_forms.php">' . $_TXT[4] . '</a></li>
+        <li><a class="h3 links" href = "../includes/main.aboutus.php">' . $_TXT[5] . '</a></li>
         </ul>
     </div>
     </header>';
