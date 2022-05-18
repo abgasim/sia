@@ -1,16 +1,17 @@
 <?php
-function getUrl($lang="en")
+function getUrl($lang = "en")
 {
     $protocol = ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
     $url = $protocol . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+    if (str_contains($url, 'lan=en') || str_contains($url, 'lan=am')) {
+        return $url;
+    }
     $components = parse_url($url);
     parse_str($components['query'], $results);
-    if(empty($results))
-    {
-       return ($url.'?lan='.$lang);
-    }
-    else {
-        return ($url.'&lan='.$lang);
+    if (empty($results)) {
+        return ($url . '?lan=' . $lang);
+    } else {
+        return ($url . '&lan=' . $lang);
     }
 }
 function myheader()
@@ -57,12 +58,11 @@ function myheader()
         <span style="color: white;">www.studyinaddis.com</span>
         </p>
     </h1>
-    <a class="btn btn-primary" href="'.getUrl("en").'">English</a>
-    <a class="btn btn-primary" href="'.getUrl("am").'">አማርኛ</a>
-    '
-    ;
-    echo 'en en en'.getUrl("en").'<br>';
-    echo 'am am am'.getUrl("am").'<br>';
+    <a class="btn btn-primary" href="' . getUrl("en") . '">English</a>
+    <a class="btn btn-primary" href="' . getUrl("am") . '">አማርኛ</a>
+    ';
+    echo 'en en en' . getUrl("en") . '<br>';
+    echo 'am am am' . getUrl("am") . '<br>';
 
     echo '
     <ul>
@@ -78,17 +78,17 @@ function myheader()
     </div>
     </header>';
 
-//     echo '
-//     <ul>
-//     <li><a class="h3 links" href = "../includes/main.institutes.gov.php"><i class="fa fa-institution"></i>&nbsp;' . $_TXT[1] . '</a></li>
-//     <li><a class="h3 links" href = "../includes/main.resources.php"><i class="fa fa-book"></i>&nbsp;' . $_TXT[2] . '</a></li>
-//     <li><a class="h3 links" href = "../includes/main.donate.php"><i class="fa fa-heart"></i>&nbsp;' . $_TXT[3] . '</a></li>
-//     <li><a class="h3 links" href = "../includes/main.student.portal.php"><i class="fa fa-sign-in">&nbsp;</i>' . $_TXT[4] . '</a></li>
-//     <li><a class="h3 links" href = "../forms/all_forms.php">' . $_TXT[5] . '</a></li>
-//     <li><a class="h3 links" href = "../includes/main.aboutus.php">' . $_TXT[6] . '</a></li>
-//     </ul>
-// </div>
-// </header>';
+    //     echo '
+    //     <ul>
+    //     <li><a class="h3 links" href = "../includes/main.institutes.gov.php"><i class="fa fa-institution"></i>&nbsp;' . $_TXT[1] . '</a></li>
+    //     <li><a class="h3 links" href = "../includes/main.resources.php"><i class="fa fa-book"></i>&nbsp;' . $_TXT[2] . '</a></li>
+    //     <li><a class="h3 links" href = "../includes/main.donate.php"><i class="fa fa-heart"></i>&nbsp;' . $_TXT[3] . '</a></li>
+    //     <li><a class="h3 links" href = "../includes/main.student.portal.php"><i class="fa fa-sign-in">&nbsp;</i>' . $_TXT[4] . '</a></li>
+    //     <li><a class="h3 links" href = "../forms/all_forms.php">' . $_TXT[5] . '</a></li>
+    //     <li><a class="h3 links" href = "../includes/main.aboutus.php">' . $_TXT[6] . '</a></li>
+    //     </ul>
+    // </div>
+    // </header>';
     // <li><a class="h3 links" href = "../includes/main.scholarship.php"><i class="fa fa-link"></i>Scholarships and Studying abroad<br>(UK,USA,EUROPE)</a></li>
     // <li><a class="h3 links" href = "../includes/main.certification.php"><i class="fa fa-certificate"></i>Certifications & Online Courses<br> (IELTS,TOEFL,UDACITY,MoSHE,...)</a></li>
 
@@ -132,5 +132,3 @@ $maps = array(
     'NSK' => '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.0016574627766!2d38.75844191744385!3d8.971992900000021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8548c0403725%3A0x21b07efbe2ea48d5!2zTmVmYXMgU2lsayBQb2x5dGVjaG5pYyBDb2xsZWdlIHwgTWFtbyBDb25kb21pbml1bSB8IOGKleGNi-GItSDhiLXhiI3hiq0g4Y2W4YiK4Ym04Yqt4YqS4YqtIHwg4Yib4YieIOGKruGKleGLtuGImuGKkuGLqOGInQ!5e0!3m2!1sen!2set!4v1652775886348!5m2!1sen!2set" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
     'YKI' => '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15760.331070933744!2d38.76953686977539!3d9.056215000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8fc77854b429%3A0x808d97097f46f27d!2sYeka%20Industrial%20college!5e0!3m2!1sen!2set!4v1652775818028!5m2!1sen!2set" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
 );
-
-
