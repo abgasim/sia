@@ -63,72 +63,33 @@ function myheader()
     <a class="btn btn-primary" href="' . getUrl("en") . '">English</a>
     <a class="btn btn-primary" href="' . getUrl("am") . '">አማርኛ</a>
     ';
-    // echo 'en en en' . getUrl("en") . '<br>';
-    // echo 'am am am' . getUrl("am") . '<br>';
-    // $components = parse_url(getUrl("en"));
 
-    // print_r($components);
-    // $urlFinal = $components['scheme'] . '://' . $components['host'] . $components['path'];
-    // print_r($urlFinal);
-    // parse_str($components['query'], $results);
+    // echo '
+    // <ul>
+    // <li>
+    // <a class="h3 links" href = "../includes/main.institutes.gov.php"><i class="fa fa-institution"></i>&nbsp;Polytechnic and College Lists</a>
+    // </li>
+    // <li><a class="h3 links" href = "../includes/main.resources.php"><i class="fa fa-book"></i>&nbsp;Resource</a></li>
+    // <li><a class="h3 links" href = "../includes/main.donate.php"><i class="fa fa-heart"></i>&nbsp;Donation</a></li>
+    // <li><a class="h3 links" href = "../includes/main.student.portal.php"><i class="fa fa-sign-in">&nbsp;</i>Login</a></li>
+    // <li><a class="h3 links" href = "../forms/all_forms.php">Forms</a></li>
+    // <li><a class="h3 links" href = "../includes/main.aboutus.php">About Us</a></li>
+    // </ul>
+    // </div>
+    // </header>';
 
-    // print_r($results);
-    // echo (http_build_query($results));
-
-    if (array_key_exists('query', $components)) {
-        parse_str($components['query'], $results);
-        print_r($results);
-        $results['lan'] = "hi";
-        $urlFinal .= '?' . http_build_query($results);
-        print_r($urlFinal);
-    }
-
-
-
-    echo '
-    <ul>
-    <li>
-    <a class="h3 links" href = "../includes/main.institutes.gov.php"><i class="fa fa-institution"></i>&nbsp;Polytechnic and College Lists</a>
-    </li>
-    <li><a class="h3 links" href = "../includes/main.resources.php"><i class="fa fa-book"></i>&nbsp;Resource</a></li>
-    <li><a class="h3 links" href = "../includes/main.donate.php"><i class="fa fa-heart"></i>&nbsp;Donation</a></li>
-    <li><a class="h3 links" href = "../includes/main.student.portal.php"><i class="fa fa-sign-in">&nbsp;</i>Login</a></li>
-    <li><a class="h3 links" href = "../forms/all_forms.php">Forms</a></li>
-    <li><a class="h3 links" href = "../includes/main.aboutus.php">About Us</a></li>
-    </ul>
+        echo '
+        <ul>
+        <li><a class="h3 links" href = "../includes/main.institutes.gov.php"><i class="fa fa-institution"></i>&nbsp;' . $_TXT[1] . '</a></li>
+        <li><a class="h3 links" href = "../includes/main.resources.php"><i class="fa fa-book"></i>&nbsp;' . $_TXT[2] . '</a></li>
+        <li><a class="h3 links" href = "../includes/main.donate.php"><i class="fa fa-heart"></i>&nbsp;' . $_TXT[3] . '</a></li>
+        <li><a class="h3 links" href = "../includes/main.student.portal.php"><i class="fa fa-sign-in">&nbsp;</i>' . $_TXT[4] . '</a></li>
+        <li><a class="h3 links" href = "../forms/all_forms.php">' . $_TXT[5] . '</a></li>
+        <li><a class="h3 links" href = "../includes/main.aboutus.php">' . $_TXT[6] . '</a></li>
+        </ul>
     </div>
     </header>';
 
-    //     echo '
-    //     <ul>
-    //     <li><a class="h3 links" href = "../includes/main.institutes.gov.php"><i class="fa fa-institution"></i>&nbsp;' . $_TXT[1] . '</a></li>
-    //     <li><a class="h3 links" href = "../includes/main.resources.php"><i class="fa fa-book"></i>&nbsp;' . $_TXT[2] . '</a></li>
-    //     <li><a class="h3 links" href = "../includes/main.donate.php"><i class="fa fa-heart"></i>&nbsp;' . $_TXT[3] . '</a></li>
-    //     <li><a class="h3 links" href = "../includes/main.student.portal.php"><i class="fa fa-sign-in">&nbsp;</i>' . $_TXT[4] . '</a></li>
-    //     <li><a class="h3 links" href = "../forms/all_forms.php">' . $_TXT[5] . '</a></li>
-    //     <li><a class="h3 links" href = "../includes/main.aboutus.php">' . $_TXT[6] . '</a></li>
-    //     </ul>
-    // </div>
-    // </header>';
-    // <li><a class="h3 links" href = "../includes/main.scholarship.php"><i class="fa fa-link"></i>Scholarships and Studying abroad<br>(UK,USA,EUROPE)</a></li>
-    // <li><a class="h3 links" href = "../includes/main.certification.php"><i class="fa fa-certificate"></i>Certifications & Online Courses<br> (IELTS,TOEFL,UDACITY,MoSHE,...)</a></li>
-
-    // <li><a class="h3 links" href = "../includes/main.aboutus.php">About Us</a></li>
-
-    //    <li><a class="h3 links" href = "../includes/main.forms1.php">Form</a></li>
-    // <form class="example" action="/action_page.php">
-    // <input type="text" placeholder="Search.." name="search">
-    // <button type="submit"><i class="fa fa-search"></i></button>
-    // </form>
-    // <li><a class="h3 links" href = "./includes/main.resources.php"><i class="fa fa-book"></i>Resource</a></li>
-    // <li><a class="h3 links" href = "./includes/main.donate.php">Donation</a></li>
-    // <li><a class="h3 links" href = "./includes/main.student.portal.php"><i class="fa fa-sign-in"></i>Portal</a></li>
-
-    // <ul>
-    // <li><a class="h3 links" href = "./internal.upload.php">upload</a></li>
-    // <li><a href="sie.main.institutes.gov.php">Governmental </a></li>
-    // <li><a href="sie.main.institutes.private.php">Private </a></li>
-    // </ul>
 }
 
 function myfooter()
