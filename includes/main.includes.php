@@ -2,7 +2,8 @@
 function getUrl($lang = "en")
 {
     $protocol = ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
-    return $url = $protocol . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+    $url = $protocol . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+    return $url;
     if (strpos($url, "lan") !== false) {
         return $url;
     }
@@ -66,7 +67,7 @@ function myheader()
     ';
     // echo 'en en en' . getUrl("en") . '<br>';
     // echo 'am am am' . getUrl("am") . '<br>';
-    var_dump(parse_url(getUrl()));
+    var_dump(parse_url(getUrl("en")));
 
 
     echo '
