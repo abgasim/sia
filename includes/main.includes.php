@@ -59,16 +59,36 @@ function myheader()
     </h1>
     <a class="btn btn-primary" href="'.getUrl("en").'">English</a>
     <a class="btn btn-primary" href="'.getUrl("am").'">አማርኛ</a>
+    '
+    ;
+    echo getUrl("en");
+    echo getUrl("am");
+
+    echo '
     <ul>
-    <li><a class="h3 links" href = "../includes/main.institutes.gov.php"><i class="fa fa-institution"></i>&nbsp;' . $_TXT[1] . '</a></li>
-    <li><a class="h3 links" href = "../includes/main.resources.php"><i class="fa fa-book"></i>&nbsp;' . $_TXT[2] . '</a></li>
-    <li><a class="h3 links" href = "../includes/main.donate.php"><i class="fa fa-heart"></i>&nbsp;' . $_TXT[3] . '</a></li>
-    <li><a class="h3 links" href = "../includes/main.student.portal.php"><i class="fa fa-sign-in">&nbsp;</i>' . $_TXT[4] . '</a></li>
-    <li><a class="h3 links" href = "../forms/all_forms.php">' . $_TXT[5] . '</a></li>
-    <li><a class="h3 links" href = "../includes/main.aboutus.php">' . $_TXT[6] . '</a></li>
+    <li>
+    <a class="h3 links" href = "../includes/main.institutes.gov.php"><i class="fa fa-institution"></i>&nbsp;Polytechnic and College Lists</a>
+    </li>
+    <li><a class="h3 links" href = "../includes/main.resources.php"><i class="fa fa-book"></i>&nbsp;Resource</a></li>
+    <li><a class="h3 links" href = "../includes/main.donate.php"><i class="fa fa-heart"></i>&nbsp;Donation</a></li>
+    <li><a class="h3 links" href = "../includes/main.student.portal.php"><i class="fa fa-sign-in">&nbsp;</i>Login</a></li>
+    <li><a class="h3 links" href = "../forms/all_forms.php">Forms</a></li>
+    <li><a class="h3 links" href = "../includes/main.aboutus.php">About Us</a></li>
     </ul>
-</div>
-</header>';
+    </div>
+    </header>';
+
+//     echo '
+//     <ul>
+//     <li><a class="h3 links" href = "../includes/main.institutes.gov.php"><i class="fa fa-institution"></i>&nbsp;' . $_TXT[1] . '</a></li>
+//     <li><a class="h3 links" href = "../includes/main.resources.php"><i class="fa fa-book"></i>&nbsp;' . $_TXT[2] . '</a></li>
+//     <li><a class="h3 links" href = "../includes/main.donate.php"><i class="fa fa-heart"></i>&nbsp;' . $_TXT[3] . '</a></li>
+//     <li><a class="h3 links" href = "../includes/main.student.portal.php"><i class="fa fa-sign-in">&nbsp;</i>' . $_TXT[4] . '</a></li>
+//     <li><a class="h3 links" href = "../forms/all_forms.php">' . $_TXT[5] . '</a></li>
+//     <li><a class="h3 links" href = "../includes/main.aboutus.php">' . $_TXT[6] . '</a></li>
+//     </ul>
+// </div>
+// </header>';
     // <li><a class="h3 links" href = "../includes/main.scholarship.php"><i class="fa fa-link"></i>Scholarships and Studying abroad<br>(UK,USA,EUROPE)</a></li>
     // <li><a class="h3 links" href = "../includes/main.certification.php"><i class="fa fa-certificate"></i>Certifications & Online Courses<br> (IELTS,TOEFL,UDACITY,MoSHE,...)</a></li>
 
