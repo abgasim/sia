@@ -5,37 +5,17 @@ function getUrl($lang = "en")
 {
     $protocol = ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
     $url = $protocol . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-    return $url;
-
     $components = parse_url($url);
-
-    print_r($components);
-    $urlFinal = $components['scheme']. '://' . $components['host'] . $components['path'];
-    print_r($urlFinal);
-    if(array_key_exists('query', $components))
-    {
+    $urlFinal = $components['scheme'] . '://' . $components['host'] . $components['path'];
+    if (array_key_exists('query', $components)) {
         parse_str($components['query'], $results);
+        $results['lan'] = $lang;
+        $urlFinal .= '?' . http_build_query($results);
+        return $urlFinal;
     }
-
-
-    // $components = parse_url($url);
-    // $urlFinal = $components['scheme']. '://' . $components['host'] . $components['path'];
-    // parse_str($components['query'], $results)
-    
-    // if (strpos($url, "lan") !== false) {
-    //     return $url;
-    // }
-    // $components = parse_url($url);
-    // parse_str($components['query'], $results);
-    // if (empty($results)) {
-    //     return ($url . '?lan=' . $lang);
-    // } else {
-
-
-    //     substr_replace("Demo text","word",5)
-    //     return ($url . '&lan=' . $lang);
-    // }
+    return $urlFinal . '?lan=' . $lang;
 }
+
 function myheader()
 {
     if (isset($_GET) && $_GET['lan'] == "am") {
@@ -85,18 +65,17 @@ function myheader()
     ';
     // echo 'en en en' . getUrl("en") . '<br>';
     // echo 'am am am' . getUrl("am") . '<br>';
-    $components = parse_url(getUrl("en"));
+    // $components = parse_url(getUrl("en"));
 
-    print_r($components);
-    $urlFinal = $components['scheme']. '://' . $components['host'] . $components['path'];
-    print_r($urlFinal);
+    // print_r($components);
+    // $urlFinal = $components['scheme'] . '://' . $components['host'] . $components['path'];
+    // print_r($urlFinal);
     // parse_str($components['query'], $results);
-    
+
     // print_r($results);
     // echo (http_build_query($results));
 
-    if(array_key_exists('query', $components))
-    {
+    if (array_key_exists('query', $components)) {
         parse_str($components['query'], $results);
         print_r($results);
         $results['lan'] = "hi";
