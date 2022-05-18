@@ -16,7 +16,7 @@ myheader();
         foreach ($data as $row) {
             echo  "<a href=./main.institutes.search.php?logo=" . $row['logo'] . ">";
 
-            echo "<div>" . $row['name'];
+            echo "<div>" . $_TXT[$row['name']];
             echo "&nbsp;[" . $row['logo'] . "]";
             echo "</div></a>";
         }
