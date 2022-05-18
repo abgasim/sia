@@ -100,7 +100,7 @@ function myheader()
         parse_str($components['query'], $results);
         print_r($results);
         $results['lan'] = "hi";
-        $urlFinal = '?' . http_build_query($results);
+        $urlFinal .= '?' . http_build_query($results);
         print_r($urlFinal);
     }
 
