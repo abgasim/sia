@@ -3,12 +3,12 @@ function getUrl($lang = "en")
 {
     $protocol = ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
     $url = $protocol . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-     return $url;
+    return $url;
 
 
-    $components = parse_url($url);
-    $urlFinal = $components['scheme']. '://' . $components['host'] . $components['path'];
-    parse_str($components['query'], $results)
+    // $components = parse_url($url);
+    // $urlFinal = $components['scheme']. '://' . $components['host'] . $components['path'];
+    // parse_str($components['query'], $results)
     
     // if (strpos($url, "lan") !== false) {
     //     return $url;
@@ -78,10 +78,10 @@ function myheader()
     print_r($components);
     $urlFinal = $components['scheme']. '://' . $components['host'] . $components['path'];
     print_r($urlFinal);
-    parse_str($components['query'], $results);
+    // parse_str($components['query'], $results);
     
-    print_r($results);
-    print_r(http_build_query($results));
+    // print_r($results);
+    // echo (http_build_query($results));
 
 
 
