@@ -2,8 +2,8 @@
 function getUrl($lang = "en")
 {
     $protocol = ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
-    $url = $protocol . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-    if (strpos($url, $lang) !== false) {
+    return $url = $protocol . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+    if (strpos($url, "lan") !== false) {
         return $url;
     }
     $components = parse_url($url);
@@ -11,6 +11,9 @@ function getUrl($lang = "en")
     if (empty($results)) {
         return ($url . '?lan=' . $lang);
     } else {
+
+
+        substr_replace("Demo text","word",5)
         return ($url . '&lan=' . $lang);
     }
 }
@@ -61,8 +64,9 @@ function myheader()
     <a class="btn btn-primary" href="' . getUrl("en") . '">English</a>
     <a class="btn btn-primary" href="' . getUrl("am") . '">አማርኛ</a>
     ';
-    echo 'en en en' . getUrl("en") . '<br>';
-    echo 'am am am' . getUrl("am") . '<br>';
+    // echo 'en en en' . getUrl("en") . '<br>';
+    // echo 'am am am' . getUrl("am") . '<br>';
+    vardump(parse_url(getUrl()));
 
     echo '
     <ul>
