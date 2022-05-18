@@ -3,7 +3,7 @@ function getUrl($lang = "en")
 {
     $protocol = ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
     $url = $protocol . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-    if (strpos($url, 'lan=en') !== false || strpos($url, 'lan=am') !== false) {
+    if (strpos($url, $lang) !== false) {
         return $url;
     }
     $components = parse_url($url);
