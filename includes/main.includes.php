@@ -82,12 +82,12 @@ function myheader()
     // </header>';
         echo '
         <ul>
-        <li><a class="h3 links" href = "../includes/main.institutes.gov.php'.$lang.'"><i class="fa fa-institution"></i>&nbsp;' . $_TXT[0] . '</a></li>
-        <li><a class="h3 links" href = "../includes/main.resources.php'.$lang.'"><i class="fa fa-book"></i>&nbsp;' . $_TXT[1] . '</a></li>
-        <li><a class="h3 links" href = "../includes/main.donate.php'.$lang.'"><i class="fa fa-heart"></i>&nbsp;' . $_TXT[2] . '</a></li>
-        <li><a class="h3 links" href = "../includes/main.student.portal.php'.$lang.'"><i class="fa fa-sign-in">&nbsp;</i>' . $_TXT[3] . '</a></li>
-        <li><a class="h3 links" href = "../forms/all_forms.php'.$lang.'">' . $_TXT[4] . '</a></li>
-        <li><a class="h3 links" href = "../includes/main.aboutus.php'.$lang.'">' . $_TXT[5] . '</a></li>
+        <li><a class="h3 links" href = "../includes/main.institutes.gov.php'.$lang.'"><i class="fa fa-institution"></i>&nbsp;' . $_TXT['Polytechnic and College Lists'] . '</a></li>
+        <li><a class="h3 links" href = "../includes/main.resources.php'.$lang.'"><i class="fa fa-book"></i>&nbsp;' . $_TXT['Resource'] . '</a></li>
+        <li><a class="h3 links" href = "../includes/main.donate.php'.$lang.'"><i class="fa fa-heart"></i>&nbsp;' . $_TXT['Donation'] . '</a></li>
+        <li><a class="h3 links" href = "../includes/main.student.portal.php'.$lang.'"><i class="fa fa-sign-in">&nbsp;</i>' . $_TXT['Login'] . '</a></li>
+        <li><a class="h3 links" href = "../forms/all_forms.php'.$lang.'">' . $_TXT['Forms'] . '</a></li>
+        <li><a class="h3 links" href = "../includes/main.aboutus.php'.$lang.'">' . $_TXT['About Us'] . '</a></li>
         </ul>
     </div>
     </header>';
