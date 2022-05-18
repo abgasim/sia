@@ -1,5 +1,13 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/main.connect.php';
+$lang = "";
+if (isset($_GET) && $_GET['lan'] == "am") {
+    $lang = "?lan=am";
+    require_once $_SERVER['DOCUMENT_ROOT'] . '/language/am.php';
+} else {
+    $lang = "?lan=en";
+    require_once $_SERVER['DOCUMENT_ROOT'] . '/language/en.php';
+}
 
 function getUrl($lang = "en")
 {
@@ -18,14 +26,7 @@ function getUrl($lang = "en")
 
 function myheader()
 {
-    $lang = "";
-    if (isset($_GET) && $_GET['lan'] == "am") {
-        $lang = "?lan=am";
-        require_once $_SERVER['DOCUMENT_ROOT'] . '/language/am.php';
-    } else {
-        $lang = "?lan=en";
-        require_once $_SERVER['DOCUMENT_ROOT'] . '/language/en.php';
-    }
+
 
     echo '
     <!DOCTYPE html>
@@ -80,6 +81,7 @@ function myheader()
     // </ul>
     // </div>
     // </header>';
+        global $lang;
         echo '
         <ul>
         <li><a class="h3 links" href = "../includes/main.institutes.gov.php'.$lang.'"><i class="fa fa-institution"></i>&nbsp;' . $_TXT['Polytechnic and College Lists'] . '</a></li>
