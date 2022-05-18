@@ -72,7 +72,8 @@ function myheader()
     // echo 'am am am' . getUrl("am") . '<br>';
     $components = parse_url(getUrl("en"));
     print_r($components);
-    echo $components['scheme'] + '/' + $components['host'] + $components['path'];
+    echo 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+    print_r($components['scheme']. '/' . $components['host'] . $components['path']);
     
     // echo http_build_query($components) . "\n";
     parse_str($components['query'], $results);
