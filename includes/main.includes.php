@@ -66,7 +66,8 @@ function myheader()
     ';
     // echo 'en en en' . getUrl("en") . '<br>';
     // echo 'am am am' . getUrl("am") . '<br>';
-    vardump(parse_url(getUrl()));
+    var_dump(parse_url(getUrl()));
+
 
     echo '
     <ul>
