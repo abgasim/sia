@@ -69,6 +69,8 @@ function myheader()
     // echo 'am am am' . getUrl("am") . '<br>';
     $components = parse_url(getUrl("en"));
     print_r($components);
+    echo http_build_query($components) . "\n";
+
 
 
     echo '
