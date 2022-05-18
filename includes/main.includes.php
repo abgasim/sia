@@ -82,6 +82,8 @@ function myheader()
     // </div>
     // </header>';
         global $lang;
+        global $_TXT;
+
         echo '
         <ul>
         <li><a class="h3 links" href = "../includes/main.institutes.gov.php'.$lang.'"><i class="fa fa-institution"></i>&nbsp;' . $_TXT['Polytechnic and College Lists'] . '</a></li>
