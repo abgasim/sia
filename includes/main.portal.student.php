@@ -10,7 +10,7 @@ myheader();
                 <div class="col-md-6" style="text-align: justify;height:500px; padding:20px">
                     <form class="form-horizontal" action="#" method="post" enctype="multipart/form-data">
                         <h1>Student Portal</h1>
-                        <div> 
+                        <div class="form-group row">
                             <select id="student-portal-select" name="select" class="custom-select form-control">
                                <option value="000">Select Your Polytechnic College</option>
                                 <?
@@ -24,15 +24,18 @@ myheader();
                                 ?>
                             </select>
                         </div>
-                        <div>
+                        <div class="form-group row">
+
                             <input type="email" class="form-control" name="userID" placeholder="email" required="" />
                         </div>
                         <br>
-                        <div>
+                        <div class="form-group row">
+
                             <input type="password" class="form-control" name="userPassword" placeholder="Password" required="" />
                         </div>
                         <br>
-                        <div>
+                        <div class="form-group row">
+
                             <button name="submit" type="submit" value="submit" class="btn btn btn-primary">
                                 Login
                             </button>
