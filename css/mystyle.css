@@ -16,7 +16,21 @@ body {
     /* midnightblue; */
      /* #FF6F61; */
 }
+/**************************************************/
+.startpage .education-search, .searchpage .education-search, .selectionspage .education-search {
+    grid-column: 1/span 12;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 25%;
+    border-radius: 2px;
+    top: 0;
+    z-index: 2;
+    position: relative;
+    display: block;
 
+}
+
+/**************************************************/
 p{
     font-size: 20px;
 }

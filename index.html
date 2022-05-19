@@ -20,13 +20,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/mystyle.css">
+
+    <link rel="stylesheet" href="../css/page.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5528376568579945"
      crossorigin="anonymous"></script>
 </head>
 <header>
+    
 <div class="header">
+    
     <h1>
         <p class="h1">
         <a href="../index.php">
@@ -50,6 +53,43 @@
     <li><a class="h3 links" href = "../forms/all_forms.php">Forms</a></li>
     <li><a class="h3 links" href = "../includes/main.aboutus.php">About Us</a></li>
     </ul>
+</div>
+<div>
+<form id="search_initial" class="education-search hero-image startpage " role="search" method="get" action="/se/search">
+    <div class="content">
+    <h1><span class="multiline-highlight">Search Eduction in all Addis Ababa Polytechnic Colleges</span></h1>
+    <div class="searcharea">
+    <div class="dropdown">
+    <select id="semesters-transparent" name="period" data-initiated="">
+    <option value="13"> Våren 2022</option>
+    <option value="14"> Sommar 2022</option>
+    <option value="15" selected=""> Hösten 2022</option>
+    <option value="16"> Våren 2023</option>
+    </select>
+    <label for="semesters-transparent">Termin <span class="optionaltext">
+    (Valfritt)
+    </span>
+    </label>
+    </div>
+    <div class="freetext_search">
+    <div class="textfield">
+    <input type="search" id="freetext" name="freeText" value="" autocomplete="off" placeholder="T.ex. apotekare Uppsala" maxlength="999" class="ui-autocomplete-input">
+    <label for="freetext">Utbildningar</label>
+    </div>
+    <div id="freeTextSuggestions"><ul id="ui-id-1" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" unselectable="on" style="display: none;"></ul></div>
+    </div>
+    <button class="button-component contained-button" type="submit" id="searchbutton">
+    Sök utbildningar <span class="dynamic-content"></span>
+    </button>
+    </div> <div class="linkarea">
+    <div class="basebackground">
+    <a href="/se/search" class="block-link">
+    Hitta utbildningar
+    </a>
+    </div>
+    </div>
+    </div>
+    </form> 
 </div>
 </header>
 <body>

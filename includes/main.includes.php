@@ -120,3 +120,43 @@ $maps = array(
     'NSK' => '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.0016574627766!2d38.75844191744385!3d8.971992900000021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8548c0403725%3A0x21b07efbe2ea48d5!2zTmVmYXMgU2lsayBQb2x5dGVjaG5pYyBDb2xsZWdlIHwgTWFtbyBDb25kb21pbml1bSB8IOGKleGNi-GItSDhiLXhiI3hiq0g4Y2W4YiK4Ym04Yqt4YqS4YqtIHwg4Yib4YieIOGKruGKleGLtuGImuGKkuGLqOGInQ!5e0!3m2!1sen!2set!4v1652775886348!5m2!1sen!2set" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
     'YKI' => '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15760.331070933744!2d38.76953686977539!3d9.056215000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8fc77854b429%3A0x808d97097f46f27d!2sYeka%20Industrial%20college!5e0!3m2!1sen!2set!4v1652775818028!5m2!1sen!2set" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
 );
+
+
+function search()
+{
+    echo '<form id="search_initial" class="education-search hero-image startpage " role="search" method="get" action="/se/search">
+    <div class="content">
+    <h1><span class="multiline-highlight">Sök utbildning på alla Sveriges universitet och högskolor</span></h1>
+    <div class="searcharea">
+    <div class="dropdown">
+    <select id="semesters-transparent" name="period" data-initiated="">
+    <option value="13"> Våren 2022</option>
+    <option value="14"> Sommar 2022</option>
+    <option value="15" selected=""> Hösten 2022</option>
+    <option value="16"> Våren 2023</option>
+    </select>
+    <label for="semesters-transparent">Termin <span class="optionaltext">
+    (Valfritt)
+    </span>
+    </label>
+    </div>
+    <div class="freetext_search">
+    <div class="textfield">
+    <input type="search" id="freetext" name="freeText" value="" autocomplete="off" placeholder="T.ex. apotekare Uppsala" maxlength="999" class="ui-autocomplete-input">
+    <label for="freetext">Utbildningar</label>
+    </div>
+    <div id="freeTextSuggestions"><ul id="ui-id-1" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" unselectable="on" style="display: none;"></ul></div>
+    </div>
+    <button class="button-component contained-button" type="submit" id="searchbutton">
+    Sök utbildningar <span class="dynamic-content"></span>
+    </button>
+    </div> <div class="linkarea">
+    <div class="basebackground">
+    <a href="/se/search" class="block-link">
+    Hitta utbildningar
+    </a>
+    </div>
+    </div>
+    </div>
+    </form>';
+}
