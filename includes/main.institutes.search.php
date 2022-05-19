@@ -35,6 +35,7 @@ myheader();
 
                 echo '<p class="h2">Available Programs</p>';
                 $courses = "";
+                print_r($data2);
                 foreach ($data2 as $row2) {
                     if(!empty($row2["area"]))
                     echo '<a href="./main.institutes.search.php?id=' . $row2["id"] . '&area=' . $row2["area"] . str_replace("?", "&", $lang) . '">' . $_TXT[strval($row2["area"])] . ',</a>&nbsp;&nbsp;';
