@@ -104,7 +104,7 @@ myheader();
             echo '<p class="h2">Found (' . $total . ') Colleges in <strong>' . $_TXT[strval($_GET["name"])] . '</strong></p>';
             echo '<p class="h2">';
             foreach ($data as $row) {
-                echo  "<div><a href=./main.institutes.gov.php?logo=" . $row['logo'] . str_replace("?", "&", $lang) . ">";
+                echo  "<div><a href=./main.institutes.search.php?logo=" . $row['logo'] . str_replace("?", "&", $lang) . ">";
                 echo $_TXT[strval($row['name'])] . "&nbsp;[" . $row['logo'] . "]";
                 echo "</a></div>";
             }
