@@ -9,7 +9,7 @@ myheader();
             <div class="col-md-12">
                 <div class="col-md-6" style="text-align: justify;height:500px; padding:20px">
                     <form class="form-horizontal" action="#" method="post" enctype="multipart/form-data">
-                        <h1 style="font-size: 3rem;">Student Portal</h1>
+                        <h1 style="font-size: 3rem;"><i class="fa fa-graduation-cap"></i>&nbsp;Student Portal</h1>
                         <div class="form-group row">
                             <label for="select" class="col-4 col-form-label">Select</label>
                             <div class="col-8">
