@@ -11,7 +11,8 @@ myheader();
                     <form class="form-horizontal" action="#" method="post" enctype="multipart/form-data">
                         <h1>Student Portal</h1>
                         <div> 
-                            <select id="student-portal-select" name="select" class="custom-select">
+                            <select id="student-portal-select" name="select" class="custom-select form-control">
+                               <option value="000">Select Your Polytechnic College</option>
                                 <?
                                 global $lang;
                                 $sql = "SELECT * FROM ptc_name ORDER BY name";
