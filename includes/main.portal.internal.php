@@ -9,7 +9,7 @@ myheader();
             <div class="col-md-12">
                 <div class="col-md-6" style="text-align: justify;height:500px; padding:20px">
                     <form class="form-horizontal" action="#" method="post" enctype="multipart/form-data">
-                        <h1>Student Portal</h1>
+                        <h1>Internal Portal</h1>
                         <div>
                             <input type="email" class="form-control" name="userID" placeholder="email" required="" />
                         </div>

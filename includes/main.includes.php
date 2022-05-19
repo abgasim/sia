@@ -89,7 +89,7 @@ function myheader()
         <li><a class="h3 links" href = "../includes/main.institutes.gov.php'.$lang.'"><i class="fa fa-institution"></i>&nbsp;' . $_TXT['Polytechnic and College Lists'] . '</a></li>
         <li><a class="h3 links" href = "../includes/main.resources.php'.$lang.'"><i class="fa fa-book"></i>&nbsp;' . $_TXT['Resource'] . '</a></li>
         <li><a class="h3 links" href = "../includes/main.donate.php'.$lang.'"><i class="fa fa-heart"></i>&nbsp;' . $_TXT['Donation'] . '</a></li>
-        <li><a class="h3 links" href = "../includes/main.portal.php'.$lang.'"><i class="fa fa-sign-in">&nbsp;</i>' . $_TXT['Login'] . '</a></li>
+        <li><a class="h3 links" href = "../includes/main.portal.php'.$lang.'"><i class="fa fa-sign-in">&nbsp;</i>' . $_TXT['Portal'] . '</a></li>
         <li><a class="h3 links" href = "../forms/all_forms.php'.$lang.'">' . $_TXT['Forms'] . '</a></li>
         <li><a class="h3 links" href = "../includes/main.aboutus.php'.$lang.'">' . $_TXT['About Us'] . '</a></li>
         </ul>
