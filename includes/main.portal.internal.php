@@ -7,7 +7,7 @@ myheader();
     <div class="middle-section">
         <div class="container-fluid">
             <div class="col-md-12">
-                <div class="col-md-6" style="text-align: justify;height:500px; padding:20px">
+                <div class="col-md-6" style="text-align: justify;height:500px; padding:20px; border:1px solid #c7c7c7;">
                     <form class="form-horizontal" action="#" method="post" enctype="multipart/form-data">
                         <h1 style="font-size: 3rem;"><i class="fa fa-users"></i>&nbsp;Internal Portal</h1>
                         <div class="form-group row">
