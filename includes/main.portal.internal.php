@@ -9,7 +9,7 @@ myheader();
             <div class="col-md-12">
                 <div class="col-md-6" style="text-align: justify;height:500px; padding:20px">
                     <form class="form-horizontal" action="#" method="post" enctype="multipart/form-data">
-                        <h1>Internal Portal</h1>
+                        <h1 style="font-size: 3rem;">Internal Portal</h1>
                         <div class="form-group row">
                             <label for="text" class="col-4 col-form-label">Email</label>
                             <div class="col-8">
