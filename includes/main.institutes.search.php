@@ -34,13 +34,10 @@ myheader();
                 $total2 = $data2->rowCount();
 
                 echo '<p class="h2">Available Programs</p>';
-                $courses = "";
-               
-                $resutx = $data2->fetchAll(PDO::FETCH_ASSOC);
-                print_r($resutx);
                 foreach ($data2 as $row2) {
-                    if(!empty($row2["area"]))
-                    echo '<a href="./main.institutes.search.php?id=' . $row2["id"] . '&area=' . $row2["area"] . str_replace("?", "&", $lang) . '">' . $_TXT[strval($row2["area"])] . ',</a>&nbsp;&nbsp;';
+                    if ($row2["area"] !== '') {
+                        echo '<a href="./main.institutes.search.php?id=' . $row2["id"] . '&area=' . $row2["area"] . str_replace("?", "&", $lang) . '">' . $_TXT[strval($row2["area"])] . ',</a>&nbsp;&nbsp;';
+                    }
                 }
 
                 echo '<p class="h2">About</p>';
